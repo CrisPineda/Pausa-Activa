@@ -48,7 +48,6 @@ const imagen = defineProps({
 onMounted(() => {
     tituloTexto.value = imagen.tituloInstruccion[sliderActual.value]
 })
-
 const finAnimacionSlider = ref(false)
 const sliderActual = ref(0)
 const tituloTexto = ref('')

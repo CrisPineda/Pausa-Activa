@@ -16,7 +16,7 @@
 
     <div class="btn-jugar auto flex-center-elements-row gap-2" style="text-align:center" @click="emit('cerrarVentana')">
       <slot name="btntexto">
-        <div class="button-bs">COMENZAR</div>
+        <div class="button-bs">¡EMPECEMOS!</div>
       </slot>
     </div>
     <div v-if="!sliderActive">

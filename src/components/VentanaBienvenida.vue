@@ -10,7 +10,7 @@
         </slot>
       </div>
       <div>
-        <img src="@/assets/img/Personajes.png" alt="" class="responsive-instrucciones">
+        <img src="@/assets/img/avatars.png" alt="" class="responsive-instrucciones">
       </div>
     </div>
 
@@ -157,8 +157,11 @@ p {
         border: 34px solid green;
     } */
   .responsive-instrucciones {
+    display: flex;
+    align-items: center;
     width: auto;
     height: 100vh;
+
   }
 }
 

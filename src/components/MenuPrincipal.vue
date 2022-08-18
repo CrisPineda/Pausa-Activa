@@ -29,7 +29,7 @@
                 <div class="config-opciones flex-center-elements-row gap-2">
                     <div class="flex-center-elements-row gap-1">
                         <div>
-                            Camara:
+                            Cámara:
                         </div>
                         <div>
                             <SwitchBotonCamara :idSwitch="idSA" @event="onOffCamara"/>
@@ -56,8 +56,8 @@
                 <div class="botones-menu flex-center-elements-column gap-2">
 
                     <div class="btn-primary" @click="mostrarInstrucciones">Instrucciones</div>
-                    <div class="btn-primary" @click="ReiniciarPartida">Reinciar Partida</div>
-                    <div class="btn-primary" @click="ReiniciarConfiguracion">Reinciar Configuración</div>
+                    <div class="btn-primary" @click="ReiniciarPartida">Reiniciar Partida</div>
+                    <div class="btn-primary" @click="ReiniciarConfiguracion">Reiniciar Configuración</div>
                     <div class="btn-primary" @click="ocultarMenuPrincipal">Salir</div>
 
                 </div>

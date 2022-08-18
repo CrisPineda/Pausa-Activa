@@ -162,10 +162,11 @@ p {
 }
 
 h1 {
+    height: -2%;
     font-family: Source Sans Pro;
     font-size: var(--h1-title-size);
     line-height: var(--h1-title-height);
-    margin: 2px;
+
 }
 
 h2 {

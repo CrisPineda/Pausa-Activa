@@ -6,7 +6,6 @@
     <div :style="styleImagenTexto">
       <div class="texto">
         <slot name="texto">
-
         </slot>
       </div>
       <div>
@@ -158,7 +157,6 @@ p {
     } */
   .responsive-instrucciones {
     display: flex;
-    align-items: center;
     width: auto;
     height: 100vh;
 

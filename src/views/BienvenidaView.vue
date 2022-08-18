@@ -245,13 +245,12 @@ const slidersBienvenida = ref([]);
 
 .tituloP{
   display: flex;
-  margin-top: 0.1%;
+  margin-top: 5%;
   align-self: self-start;
   font-weight: bold;
   color: white;
   font-family: Source Sans Pro;
   font-size: 4em;
-  border: 130px;
 
 }
 

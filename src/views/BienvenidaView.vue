@@ -66,8 +66,8 @@
 
       </VentanaBienvenida>
       <VentanaInstrucciones v-if="ocultarInstrucciones" urlImagenFondo="Instrucciones" :ocultarNavegacion="true">
-      
         <template #texto>
+            <h1 class="tituloI">Instrucciones.</h1>
           <div>
             <sliderInstrucciones :numerodeSliders="4" :ocultarNavegacion="false"
               :tituloInstruccion="InstruccionesActividad">
@@ -249,6 +249,23 @@ const slidersBienvenida = ref([]);
   align-self: self-start;
   font-weight: bold;
   color: white;
+  font-family: Source Sans Pro;
+  font-size: 4em;
+
+}
+
+.tituloI{
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  font-weight: bold;
+  color: white;
+  width: 29vw;
+  height: 10%;
+  position: absolute;
+  left: 22%;
+  top: -16%;
+  transform: translate(-50%, -50%);
   font-family: Source Sans Pro;
   font-size: 4em;
 

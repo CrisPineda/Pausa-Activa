@@ -62,7 +62,7 @@ import SliderVentana from "./sliderVentana.vue";
 import ButtonSliders from "../components/buttonsSliders/botonsSliders.vue";
 import animateCSS from "@/assets/helpers/animations.js";
 import { useRouter, useRoute } from "vue-router";
-import imagenFondoBienvenidaImagen from '@/assets/img/BienvidaJuegos.png'
+import imagenFondoBienvenidaImagen from '@/assets/img/fondoEscenario.png'
 
 const router = useRouter()
 const slid = ref(0);

@@ -118,8 +118,8 @@ const hiddenWindow = () => {
 .btn-jugar {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-40vh, 30vh);
+  left: 47%;
+  transform: translate(-43vh, 30vh);
 }
 
 .texto {
@@ -168,6 +168,16 @@ p {
     width: 60vh;
     height: auto;
   }
+
+  .tituloP{
+  display: flex;
+  margin-top: 1%;
+  align-self: self-start;
+  font-weight: bold;
+  color: white;
+  font-family: Source Sans Pro;
+  font-size: 4em;
+}
 
   .texto {
     grid-gap: 0rem;

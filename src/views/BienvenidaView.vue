@@ -44,9 +44,9 @@
         <!--  <template #titulo> Bienvenido </template> -->
         <template #texto>
 
+          <h1 class="tituloP">Pausas Activas.</h1>
 
-
-          <p><strong> Las pausas activas </strong> son sesiones de actividad física desarrolladas en el entorno laboral,
+          <p>Las<strong> pausas activas </strong> son sesiones de actividad física desarrolladas en el entorno laboral,
             con una duración
             continua mínima de 10 minutos que incluye adaptación física cardiovascular, fortalecimiento muscular y
             mejoramiento de la flexibilidad buscando reducir el riesgo cardiovascular y las lesiones musculares por
@@ -240,6 +240,18 @@ const slidersBienvenida = ref([]);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.tituloP{
+  display: flex;
+  margin-top: 0.1%;
+  align-self: self-start;
+  font-weight: bold;
+  color: white;
+  font-family: Source Sans Pro;
+  font-size: 4em;
+  border: 130px;
+
 }
 
 .puntos-escena {

@@ -66,6 +66,7 @@
 
       </VentanaBienvenida>
       <VentanaInstrucciones v-if="ocultarInstrucciones" urlImagenFondo="Instrucciones" :ocultarNavegacion="true">
+      
         <template #texto>
           <div>
             <sliderInstrucciones :numerodeSliders="4" :ocultarNavegacion="false"

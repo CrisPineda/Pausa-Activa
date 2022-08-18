@@ -2,7 +2,7 @@
     <div>
         <div class="interrogacion ">
             <slot name="texto">
-                <div class="tema-texto">Selecciona las siguientes imagenes:<br><br>
+                <div class="tema-texto">Seleccione las siguientes imágenes:<br><br>
                     <bold>{{ tema }}</bold>
                 </div>
             </slot>

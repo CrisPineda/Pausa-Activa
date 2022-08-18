@@ -28,7 +28,7 @@
 <script setup>
 import { ref, reactive, onBeforeMount, onMounted, watch } from 'vue'
 import imagenFondoBienvenidaImagen from '@/assets/img/BienvidaJuegos.png'
-import imagenFondoInstruccionesImagen from '@/assets/img/InstruccioneJuegos.png'
+import imagenFondoInstruccionesImagen from '@/assets/img/fondoEscenario.png'
 
 const emit = defineEmits(['ocultarVentana'])
 const imagenFondo = ref('')

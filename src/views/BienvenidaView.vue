@@ -1,44 +1,10 @@
 
 <template>
   <div class="container">
-    <!-- <div class="puntos-avance">
-
-      <object ref="escena" type="image/svg+xml" :data="PuntosEscenario" class="puntos-escena">
-
-      </object>
-    </div> -->
-
     <div v-if="mostrarVentanaContinuidad">
       <VentanaContinuidad />
     </div>
     <div v-else>
-      <!-- <VentanaInstrucciones v-if="ocultarVentana" @ocultarVentana="cerrarBienvenida" urlImagenFondo="BienvidaJuegos" :isPersonajeVisible="true"
-        :ocultarBotones="ocultarBotones">
-        <template #texto>
-          <h2>
-            Las pausas activas son una forma de promover la actividad física, como habito
-            de vida saludable, por lo cual se deben desarrollar programas educativos sobre
-            la importancia y los beneficios de la actividad física regular.
-          </h2>
-          <h2>Son sesiones de actividad física desarrolladas en el entorno laboral, con una
-            duración continua mínima de 10 minutos que incluye adaptación física
-            cardiovascular, fortalecimiento muscular y mejoramiento de la flexibilidad
-            buscando reducir el riesgo cardiovascular y las lesiones musculares por sobreuso asociados al desempeño
-            laboral.
-          </h2>
-
-          <div class="btn-jugar auto flex-center-elements-row gap-2" style="text-align:center" @click="openFullscreen">
-            <div  class="button-bs"> COMENZAR</div>
-          </div>
-
-
-        </template>
-        <template #btntexto>
-
-        </template>
-
-      </VentanaInstrucciones> -->
-
       <VentanaBienvenida v-if="ocultarVentana" :sliderActive="false"
         class="animate__animated animate__delay-2s animate__fadeIn" ruta="usuario" @cerrarVentana="openFullscreen">
         <!--  <template #titulo> Bienvenido </template> -->
@@ -46,22 +12,10 @@
 
           <h1 class="tituloP">Pausas Activas.</h1>
 
-          <p>Las<strong> pausas activas </strong> son sesiones de actividad física desarrolladas en el entorno laboral,
-            con una duración
-            continua mínima de 10 minutos que incluye adaptación física cardiovascular, fortalecimiento muscular y
-            mejoramiento de la flexibilidad buscando reducir el riesgo cardiovascular y las lesiones musculares por
-            sobreuso asociados al desempeño laboral.
+          <p><strong>Bienvenido</strong> al juego que le facilitará el proceso para el correcto cumplimiento de las pausas activas, haciéndolo de forma entretenida y divertida. <br> <br>
+            <strong>Recuerde</strong> que la realización de pausas activas durante su jornada laboral es beneficiosa para su salud. Lo recomendable es hacerlas cada 2 horas, con una duración mínima por sesión de 10 minutos.
+            Le invitamos a disponer de esta herramienta como guía y apoyo para la ejecución de las mismas activas siempre que lo desee. 
           </p>
-          <p>
-            Las Pausas Activas serán una forma de promover la actividad física, como hábito de vida saludable, por lo
-            cual se deben desarrollar programas educativos sobre la importancia y los beneficios de la actividad física
-            regular.
-          </p>
-
-
-          <!-- <p>En el entorno laboral, la gran mayoría de trabajadores permanecen por lo menos
-            ocho horas del día, y dependiendo del trabajo, en muchas ocasiones están
-            sentados, con un nivel de actividad física mínimo. </p> -->
         </template>
       </VentanaBienvenida>
       <VentanaInstrucciones v-if="ocultarInstrucciones" urlImagenFondo="Instrucciones" :ocultarNavegacion="true">
@@ -95,19 +49,13 @@
           </div>
           <div class="btn-jugar auto flex-center-elements-row gap-2" style="text-align:center"
             @click="ocultarVentanaInstrucciones">
-            <div class="btn-primary" id="continuar" > CONTINUAR</div>
+            <div class="btn-primary" > CONTINUAR</div>
           </div>
 
         </template>
       </VentanaInstrucciones>
 
     </div>
-
-
-
-
-
-
   </div>
 </template>
 
@@ -242,13 +190,12 @@ const slidersBienvenida = ref([]);
 }
 
 .tituloP{
-  display: flex;
-  margin-top: 5%;
+  margin-top: 10%;
   align-self: self-start;
   font-weight: bold;
   color: white;
   font-family: Source Sans Pro;
-  font-size: 4em;
+  font-size: 5em;
 
 }
 

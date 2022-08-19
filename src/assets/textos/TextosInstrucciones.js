@@ -1,4 +1,7 @@
 export const instruccionesBienvenida = [
+    '1. Bienvenido al juego que le facilitará el proceso para el correcto cumplimiento de las pausas activas, haciéndolo de forma entretenida y divertida.<br>' +
+    'Recuerde que la realización de pausas activas durante su jornada laboral es beneficiosa para su salud. Lo recomendable es hacerlas cada 2 horas, con una duración mínima por sesión de 10 minutos.<br>' +
+    'Le invitamos a disponer de esta herramienta como guía y apoyo para la ejecución de las mismas activas siempre que lo desee.',
     '¡Para empezar, deberá colocar su nombre y autorizar el acceso a su cámara web! <br><br> Si no tiene cámara web, no se preocupe, igual podrá jugar.',//slider1
     'Cada vez que sea redirigido al escenario, el personaje avanzará automáticamente por el mismo, no hace falta que de clic sobre ningún punto de la pantalla.<br><br>Al llegar a cada estación, debe primero leer atentamente las instrucciones que se presentan para realizar cada uno de los juegos que mostrarán las pausas activas.',//slider2
     'Durante su recorrido deberá realizar correctamente los juegos que muestran las pausas activas a ejecutar. Encontrará diferentes mecánicas de juegos antes de pasar a realizar cada pausa activa.',//slider3

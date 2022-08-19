@@ -13,10 +13,7 @@
 
                 </slot>
             </div>
-            <form name="miformulario">
-                <div v-if="!imagen.ocultarNavegacion" class="prev" :style="styleObjectPrev" @click="prev()" id="enviar"> </div>
-            </form>
-            
+                <div v-if="!imagen.ocultarNavegacion" class="prev" :style="styleObjectPrev" @click="prev()" id="enviar"> </div>         
         </div>
     </div>
 </template>
@@ -156,7 +153,7 @@ function navegacion  () {
         styleObjectPrev.pointerEvents = 'none'
         styleObjectNext.filter = 'opacity(0.5)'
         styleObjectPrev.filter = 'opacity(0.5)' 
-        tiempoEspera2 = setTimeout(funcionConRetraso3, 3000);
+        tiempoEspera2 = setTimeout(funcionConRetraso3, 1500);
 
     } else if (sliderActual.value == 0) {
    
@@ -164,7 +161,7 @@ function navegacion  () {
         styleObjectPrev.pointerEvents = 'none'
         styleObjectNext.filter = 'opacity(0.5)'
         styleObjectPrev.filter = 'opacity(0.5)' 
-        tiempoEspera = setTimeout(funcionConRetraso2, 3000);
+        tiempoEspera = setTimeout(funcionConRetraso2, 1500);
 
     } else {
     
@@ -172,7 +169,7 @@ function navegacion  () {
         styleObjectPrev.pointerEvents = 'none'
         styleObjectNext.filter = 'opacity(0.5)'
         styleObjectPrev.filter = 'opacity(0.5)'   
-        identificadorTiempoDeEspera = setTimeout(funcionConRetraso, 3000);
+        identificadorTiempoDeEspera = setTimeout(funcionConRetraso, 1500);
 
     }
 

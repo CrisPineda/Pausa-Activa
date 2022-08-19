@@ -1,12 +1,22 @@
 export const instruccionesBienvenida = [
-    '1. Bienvenido al juego que le facilitará el proceso para el correcto cumplimiento de las pausas activas, haciéndolo de forma entretenida y divertida.<br>' +
-    'Recuerde que la realización de pausas activas durante su jornada laboral es beneficiosa para su salud. Lo recomendable es hacerlas cada 2 horas, con una duración mínima por sesión de 10 minutos.<br>' +
-    'Le invitamos a disponer de esta herramienta como guía y apoyo para la ejecución de las mismas activas siempre que lo desee.',
-    '¡Para empezar, deberá colocar su nombre y autorizar el acceso a su cámara web! <br><br> Si no tiene cámara web, no se preocupe, igual podrá jugar.',//slider1
-    'Cada vez que sea redirigido al escenario, el personaje avanzará automáticamente por el mismo, no hace falta que de clic sobre ningún punto de la pantalla.<br><br>Al llegar a cada estación, debe primero leer atentamente las instrucciones que se presentan para realizar cada uno de los juegos que mostrarán las pausas activas.',//slider2
-    'Durante su recorrido deberá realizar correctamente los juegos que muestran las pausas activas a ejecutar. Encontrará diferentes mecánicas de juegos antes de pasar a realizar cada pausa activa.',//slider3
-    'Luego de ejecutar 2 dinámicas de juegos y realizar las pausas activas propuestas, tendrá un gran reto de conocimiento donde deberá responder de forma asertiva tres preguntas que se presentarán a través de la actividad de la ruleta ¿Está listo?',//slider4
-    'Al finalizar todo el recorrido del escenario, se presentará un balance con los resultados y beneficios obtenidos por la correcta realización de las pausas activas.<br><br>Recuerde que realizar pausas activas ayuda a reducir el estrés (barra de medición azul), aumentar la energía (barra de medición verde) y favorecer la salud (barra de medición roja) de los trabajadores, por ello, es muy importante realizarlas.'//slider5
+    '1. Deberá ingresar su nombre y dar autorización o no al acceso de su cámara web. <br> <br>' +
+    ' Nota: si no tiene cámara web, no se preocupe, igual podrá jugar.',//slider1
+
+    '2.	Será redirigido al escenario donde el personaje del juego se movilizará de casilla en casilla sin necesidad de dar clic sobre ningún punto de la pantalla.<br> <br>' +
+    'Al llegar a cada una de las casillas, lea atentamente las instrucciones que se presentan y realice las dinámicas de juegos que mostrarán las pausas activas.',//slider2
+
+    '3.	Para la realización de las pausas activas, debe primero ejecutar correctamente la dinámica de juego que se le presente.',//slider3
+
+    '4.	Posterior a ejecutar correctamente 2 dinámicas de juegos junto con las pausas activas planteadas en estas, deberá responder correctamente 3 preguntas que se plantearán en la dinámica de la ruleta.' ,//slider4
+
+    '5.	Por último, al finalizar el recorrido del escenario se presentará un balance con los resultados de los beneficios obtenidos por la correcta realizaión de las pausas activas. <br>' +
+
+    'Los resultados se presentarán de la siguiente manera: <br>' +
+    'Barra roja: medición de la salud. <br>' +
+    'Barra azul: medición del estrés. <br>' +
+    'Barra verde: medición de energía. <br>' +
+    
+    'Cada vez que se de continunar sobre esta pantalla, el personaje del juego reiniciará el recorrido del escenario para que así pueda usar este juego siempre que lo desee. <br>'//slider5
 ]
 
 

@@ -5,7 +5,7 @@
 
         </div>
         <div class="contenedor-slider flex-center-elements-row-nowrap">
-            <div v-if="!imagen.ocultarNavegacion" class="next" :style="styleObjectNext" @click="next()">
+            <div v-if="!imagen.ocultarNavegacion" class="next" :style="styleObjectNext" @click="next()" >
             </div>
             <!-- :class="`contenedor-imagenes-${imagen.id}`" :style="[styleObjectContenedor, styleObjectValidacion]" -->
             <div class="contenedor-items-slider gap-4">
@@ -13,9 +13,10 @@
 
                 </slot>
             </div>
-            <div v-if="!imagen.ocultarNavegacion" class="prev" :style="styleObjectPrev" @click="prev()">
-            </div>
-
+            <form name="miformulario">
+                <div v-if="!imagen.ocultarNavegacion" class="prev" :style="styleObjectPrev" @click="prev()" id="enviar"> </div>
+            </form>
+            
         </div>
     </div>
 </template>
@@ -86,9 +87,14 @@ const styleObjectPrev = reactive({
     height: '4vh'
 });
 
-const prev = () => {
 
+
+
+
+const prev = () => {
+    navegacion();
     if (sliderActual.value != imagen.numerodeSliders) {
+        
         let contenedorItemsSliders = document.querySelector(`.contenedor-items-slider`).getBoundingClientRect()
         animateCSS(".titulo", "fadeOut").then((message) => {
             tituloTexto.value = imagen.tituloInstruccion[sliderActual.value]
@@ -98,8 +104,6 @@ const prev = () => {
             });
 
         });
-
-        
 
         gsap.to(`.contenedor-items-slider`, {
             x: `+=-${contenedorItemsSliders.width+32}px`
@@ -115,8 +119,7 @@ const prev = () => {
 }
 
 const next = () => {
-
-
+    navegacion();
     if (sliderActual.value != 0) {
         let contenedorItemsSliders = document.querySelector(`.contenedor-items-slider`).getBoundingClientRect()
 
@@ -141,30 +144,66 @@ const next = () => {
 }
 
 
-const navegacion = () => {
+function navegacion  () {
+
+    let identificadorTiempoDeEspera;
+    let tiempoEspera;
+    let tiempoEspera2;
   
     if (sliderActual.value == imagen.numerodeSliders) {
        
-        styleObjectNext.filter = 'opacity(1)'
-        styleObjectPrev.filter = 'opacity(0.5)'
-        styleObjectNext.pointerEvents = 'all'
+        styleObjectNext.pointerEvents = 'none'
         styleObjectPrev.pointerEvents = 'none'
+        styleObjectNext.filter = 'opacity(0.5)'
+        styleObjectPrev.filter = 'opacity(0.5)' 
+        tiempoEspera2 = setTimeout(funcionConRetraso3, 3000);
+
     } else if (sliderActual.value == 0) {
    
+        styleObjectNext.pointerEvents = 'none'
+        styleObjectPrev.pointerEvents = 'none'
+        styleObjectNext.filter = 'opacity(0.5)'
+        styleObjectPrev.filter = 'opacity(0.5)' 
+        tiempoEspera = setTimeout(funcionConRetraso2, 3000);
+
+    } else {
+    
+        styleObjectNext.pointerEvents = 'none'
+        styleObjectPrev.pointerEvents = 'none'
+        styleObjectNext.filter = 'opacity(0.5)'
+        styleObjectPrev.filter = 'opacity(0.5)'   
+        identificadorTiempoDeEspera = setTimeout(funcionConRetraso, 3000);
+
+    }
+
+
+   function funcionConRetraso() {
+
+    styleObjectNext.pointerEvents = 'all'
+    styleObjectPrev.pointerEvents = 'all'
+    styleObjectNext.filter = 'opacity(1)'
+    styleObjectPrev.filter = 'opacity(1)'
+    
+}
+
+function funcionConRetraso2() {
+
         styleObjectNext.filter = 'opacity(0.5)'
         styleObjectPrev.filter = 'opacity(1)'
         styleObjectNext.pointerEvents = 'none'
         styleObjectPrev.pointerEvents = 'all'
-    } else {
-    
-        styleObjectNext.filter = 'opacity(1)'
-        styleObjectPrev.filter = 'opacity(1)'
-        styleObjectNext.pointerEvents = 'all'
-        styleObjectPrev.pointerEvents = 'all'
-
-
 
     }
+
+function funcionConRetraso3() {
+
+        styleObjectNext.filter = 'opacity(1)'
+        styleObjectPrev.filter = 'opacity(0.5)'
+        styleObjectNext.pointerEvents = 'all'
+        styleObjectPrev.pointerEvents = 'none'
+
+       }
+
 }
 
 </script>

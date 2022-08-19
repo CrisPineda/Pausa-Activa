@@ -51,21 +51,26 @@
                         :tituloInstruccion="InstruccionesActividad">
 
                         <template #sliders>
+                            
                             <div class="item-slider">
                                 <img src="@/assets/img/sliders_camara_usuario.png" class="responsive-imagen-slider"
                                     alt="">
                             </div>
+
                             <div class="item-slider">
                                 <img src="@/assets/img/Intrucciones_escenario.png" class="responsive-imagen-slider"
                                     alt="">
                             </div>
+
                             <div class="item-slider">
                                 <img src="@/assets/img/Intrucciones_ruleta.png" class="responsive-imagen-slider" alt="">
                             </div>
+
                             <div class="item-slider">
                                 <img src="@/assets/img/sliders_instrucciones_balance_final.png"
                                     class="responsive-imagen-slider" alt="">
                             </div>
+
                         </template>
                     </sliderInstrucciones>
                 </div>

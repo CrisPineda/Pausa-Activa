@@ -63,7 +63,6 @@
             ocho horas del día, y dependiendo del trabajo, en muchas ocasiones están
             sentados, con un nivel de actividad física mínimo. </p> -->
         </template>
-
       </VentanaBienvenida>
       <VentanaInstrucciones v-if="ocultarInstrucciones" urlImagenFondo="Instrucciones" :ocultarNavegacion="true">
         <template #texto>
@@ -71,7 +70,6 @@
           <div>
             <sliderInstrucciones :numerodeSliders="4" :ocultarNavegacion="false"
               :tituloInstruccion="InstruccionesActividad">
-
               <template #sliders>
                 <div id="contenedor-sliders" style="display: flex;justify-content: space-between;align-items: center;align-content: center;width: fit-content">
                   <div class="item-slider">
@@ -97,7 +95,7 @@
           </div>
           <div class="btn-jugar auto flex-center-elements-row gap-2" style="text-align:center"
             @click="ocultarVentanaInstrucciones">
-            <div class="btn-primary"> CONTINUAR</div>
+            <div class="btn-primary" id="continuar" > CONTINUAR</div>
           </div>
 
         </template>

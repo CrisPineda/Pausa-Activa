@@ -5,23 +5,20 @@
             <div class="contenedor-configuracion">
                 <div class="titulo">
 
-                    <div>{{
+                    <div class="Bienvenida">{{
                             config.nombreUsuario == ""
                                 ? "Hola Invitado"
                                 : `Hola ${UpperCase} `
                     }}
 
                     </div>
+                    <button class="botonsalida info">X</button>
                 </div>
 
                 <div class="title">
                     <div>
                         <strong>Menú principal</strong>
                     </div>
-
-
-
-
                 </div>
 
 
@@ -55,10 +52,10 @@
 
                 <div class="botones-menu flex-center-elements-column gap-2">
 
-                    <div class="btn-primary" @click="mostrarInstrucciones">Instrucciones</div>
-                    <div class="btn-primary" @click="ReiniciarPartida">Reiniciar Partida</div>
-                    <div class="btn-primary" @click="ReiniciarConfiguracion">Reiniciar Configuración</div>
-                    <div class="btn-primary" @click="ocultarMenuPrincipal">Salir</div>
+                    <div class="btn-primary info" @click="mostrarInstrucciones">Instrucciones</div>
+                    <div class="btn-primary info" @click="ReiniciarPartida">Reiniciar Partida</div>
+                    <div class="btn-primary info" @click="ReiniciarConfiguracion">Reiniciar Configuración</div>
+                    <div class="btn-primary info" @click="ocultarMenuPrincipal">Salir</div>
 
                 </div>
 
@@ -171,6 +168,34 @@ const isMenuPrincipalVisible = computed(() => config.menuEstadoVisible)
     flex-direction: column;
 }
 
+
+
+.botonsalida{
+
+    display: felx;
+    width: 10%;
+    margin-left: 29%;
+    margin-right: -36%;
+    background-color: var(--azul-axa);
+    Font-size: 0.5em;
+    color: var(--blanco);
+    border: var(--azul-axa);
+    cursor: pointer;
+     
+}
+
+.info {
+   background: var(--azul-axa);
+   border: var(--azul-axa);
+
+}
+
+.info:hover {
+
+  background: rgb(25, 35, 172);
+
+}
+
 .contenedor-actividad {
     width: 100vw;
     height: 100vh;
@@ -260,6 +285,30 @@ hr {
     font-family: Source Sans Pro;
 }
 
+@media (max-height: 1080px)  and (min-width: 1024px) and (orientation: landscape){
+
+    .botonsalida{
+    display: felx;
+    margin-left: 4%;
+    margin-right: -15%;
+
+    
+    }
+
+}
+
+@media (max-width: 1080px) and (max-height: 1920px)    and (orientation: landscape){
+
+    .botonsalida{
+    display: felx;
+    margin-left: 5%;
+    margin-right: -44%;
+
+    
+    }
+}
+
+
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
     .contenedor-central-menu {
@@ -286,6 +335,13 @@ hr {
         width: auto;
         height: 19%;
     }
+
+    .botonsalida{
+    display: felx;
+    margin-left: 25%;
+    margin-right: -33%;
+    
+}
 
     .config-opciones {
     height: 77vh;

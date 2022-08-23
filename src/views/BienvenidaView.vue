@@ -227,7 +227,102 @@ const slidersBienvenida = ref([]);
 
 .item-slider img {
     object-fit: scale-down;
-  /*   width: 70% !important;
-    height: 30%; */
+     width: 70% !important;
+    height: 30%; 
 }
+
+@media  (min-height:280px) and (orientation: landscape) {
+
+  .tituloP{
+   margin-top: 5%;
+   align-self: self-start;
+   font-weight: bold;
+   color: white;
+   font-family: Source Sans Pro;
+   font-size: 4em;
+
+  }
+  
+
+}
+
+@media (min-width: 801px) and (max-width: 1023px) and (orientation: landscape) {
+  
+  .tituloP{
+   margin-top: 10%;
+   align-self: self-start;
+   font-weight: bold;
+   color: white;
+   font-family: Source Sans Pro;
+   font-size: 4em;
+
+  }
+
+  .tituloI{
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  font-weight: bold;
+  color: white;
+  width: 37%;
+  height: 10%;
+  position: absolute;
+  left: 22%;
+  top: -16%;
+  transform: translate(-50%, -50%);
+  font-family: Source Sans Pro;
+  font-size: 2em;
+
+}
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1367px) and (orientation: landscape) {
+
+    .tituloP{
+   margin-top: 10%;
+   align-self: self-start;
+   font-weight: bold;
+   color: white;
+   font-family: Source Sans Pro;
+   font-size: 4em;
+
+  }
+  
+
+  .tituloI{
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  font-weight: bold;
+  color: white;
+  width: 29vw;
+  height: 10%;
+  position: absolute;
+  left: 22%;
+  top: -16%;
+  transform: translate(-50%, -200%);
+  font-family: Source Sans Pro;
+  font-size: 4em;
+
+}
+
+}
+
+@media (min-width: 1368px) and (orientation: landscape) {
+
+    .tituloP{
+   margin-top: 10%;
+   line-height: 77%;
+   align-self: self-start;
+   font-weight: bold;
+   color: white;
+   font-family: Source Sans Pro;
+   font-size: 4em;
+
+  }
+
+}
+
 </style>

@@ -3,18 +3,28 @@
         <div class="titulo">
             <div class="intrucciones" v-html="tituloTexto"></div>
 
-        </div>
-        <div class="contenedor-slider flex-center-elements-row-nowrap">
-            <div v-if="!imagen.ocultarNavegacion" class="next" :style="styleObjectNext" @click="next()" >
-            </div>
-            <!-- :class="`contenedor-imagenes-${imagen.id}`" :style="[styleObjectContenedor, styleObjectValidacion]" -->
-            <div class="contenedor-items-slider gap-4">
+        </div> 
+<!--         
+        <div class="main-flex" >
+             <div v-if="!imagen.ocultarNavegacion" class="next flex-1" :style="styleObjectNext" @click="next()" ></div>
+             <div class="flex-2 contenedor-items-slider gap-4">
                 <slot name="sliders">
-
                 </slot>
-            </div>
-                <div v-if="!imagen.ocultarNavegacion" class="prev" :style="styleObjectPrev" @click="prev()" id="enviar"> </div>         
-        </div>
+             </div>
+             <div v-if="!imagen.ocultarNavegacion" class="prev flex-3" :style="styleObjectPrev" @click="prev()" id="enviar"></div>
+
+        </div> -->
+                <div class="contenedor-slider flex-center-elements-row-nowrap">
+                    <div v-if="!imagen.ocultarNavegacion" class="next flex-1" :style="styleObjectNext" @click="next()" >
+                    </div>
+                   
+                    <div class="contenedor-items-slider gap-4 flex-2">
+                        <slot name="sliders">
+
+                        </slot>
+                    </div>
+                        <div v-if="!imagen.ocultarNavegacion" class="prev flex-3" :style="styleObjectPrev" @click="prev()" id="enviar"> </div>         
+                </div>
     </div>
 </template>
 
@@ -103,7 +113,7 @@ const prev = () => {
         });
 
         gsap.to(`.contenedor-items-slider`, {
-            x: `+=-${contenedorItemsSliders.width+32}px`
+            x: `+=-${contenedorItemsSliders.width+320}px`
             , onComplete: () => {
                 finAnimacionSlider.value = false
                 sliderActual.value++
@@ -206,9 +216,29 @@ function funcionConRetraso3() {
 </script>
 
 <style lang="scss" scoped>
+
+.main-flex{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.flex-1 {
+  width: 10%;
+}
+
+.flex-2 {
+  width: 80%;
+}
+
+.flex-3 {
+  width: 10%;
+}
+
 .contenedor-slider {
     width: 100%;
-    height: 40vh;
+    height: 100%;
+    margin-right: 10%;
     overflow: hidden;
 }
 
@@ -262,7 +292,7 @@ function funcionConRetraso3() {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .slider-instrucciones {
         width: 495px;
-        height: 14pc
+        height: 14pc;
     }
 
     .texto-instrucciones {
@@ -283,9 +313,109 @@ function funcionConRetraso3() {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+@media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
 
-@media screen and (min-width: 640px) and (max-width: 1280px) {}
+      .slider-instrucciones {
+        width: 100%;
+        height: 100%;
+        
+    }
 
-@media screen and (min-width: 1280px) {}
+    .texto-instrucciones {
+        width: 70%;
+        height: 130px;
+        
+
+    }
+
+    .contenedor-slider {
+        height: 100%;
+    }
+
+    .contenedor-items-slider {
+    }
+
+    .intrucciones {
+        font-family: Source Sans Pro;
+        font-size: var(--h2-title-size);
+        color: black;
+        font-weight: normal;
+        text-align: left;
+        height: 32vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+    
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1367px) and (orientation: landscape) {
+
+      .slider-instrucciones {
+        width: 100%;
+        height: 100%;
+    }
+
+    .texto-instrucciones {
+        width: 70%;
+        height: 130px;
+    }
+
+    .contenedor-slider {
+        height: 100%;
+    }
+
+    .intrucciones {
+        font-family: Source Sans Pro;
+        font-size: var(--h2-title-size);
+        color: black;
+        font-weight: normal;
+        text-align: left;
+        height: 32vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    
+    
+}
+
+@media screen and (min-width: 1368px) and (orientation: landscape){
+
+     .slider-instrucciones {
+        width: 100%;
+        height: 100%;
+    }
+
+    .texto-instrucciones {
+        width: 70%;
+        height: 130px;
+    }
+
+    .contenedor-slider {
+        height: 100%;
+    }
+
+
+    .intrucciones {
+        font-family: Source Sans Pro;
+        font-size: var(--h2-title-size);
+        color: black;
+        font-weight: normal;
+        text-align: left;
+        height: 32vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+}
 </style>

@@ -162,12 +162,45 @@ p {
 
   }
 }
+/* Responsive 1 */
+@media (min-width: 360px) and (max-width:800px) and (orientation: landscape) {
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  .responsive-instrucciones {
+   .responsive-instrucciones {
     width: 60vh;
     height: auto;
+    margin-top: 10%;
+  }
+
+   .tituloP{
+  display: flex;
+  align-self: self-start;
+  font-weight: bold;
+  color: white;
+  font-family: Source Sans Pro;
+  font-size: 4em;
+}
+
+  .texto {
+    grid-gap: 0rem;
+    height: -webkit-fill-available;
+    font-size: 0.53em;
+  }
+
+   .btn-jugar {
+        position: absolute;
+        top: 63%;
+        left: 50%;
+        transform: translate(-40vh, 20vh);
+    }
+
+}
+
+@media (min-width: 801px) and (max-width: 1023px) and (orientation: landscape) {
+
+  .responsive-instrucciones {
+    width: 70vh;
+    height: auto;
+    margin-top: 10%;
   }
 
   .tituloP{
@@ -188,10 +221,76 @@ p {
 
    .btn-jugar {
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
-        transform: translate(-40vh, 20vh);
+        transform: translate(-30vh, 20vh);
     }
 }
+
+@media (min-width: 1024px) and (max-width: 1367px) and (orientation: landscape) {
+
+  .responsive-instrucciones {
+    width: 70vh;
+    height: auto;
+    margin-top: 10%;
+  }
+
+  .tituloP{
+  display: flex;
+  margin-top: 1%;
+  align-self: self-start;
+  font-weight: bold;
+  color: white;
+  font-family: Source Sans Pro;
+  font-size: 4em;
+}
+
+  .texto {
+    grid-gap: 0rem;
+    height: -webkit-fill-available;
+    font-size: 0.8em;
+  }
+
+   .btn-jugar {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-30vh, 23vh);
+    }
+}
+
+@media (min-width: 1368px)  and (orientation: landscape) {
+
+  .responsive-instrucciones {
+    width: 70vh;
+    height: auto;
+    margin-top: 10%;
+    }
+
+  .tituloP{
+  display: flex;
+  margin-top: 1%;
+  align-self: self-start;
+  font-weight: bold;
+  color: white;
+  font-family: Source Sans Pro;
+  font-size: 4em;
+  }
+
+  .texto {
+    grid-gap: 0rem;
+    height: -webkit-fill-available;
+    font-size: 1.3em;
+  }
+
+   .btn-jugar {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-20vh, 25vh);
+    }
+    
+}
+
 </style>
 

@@ -206,7 +206,7 @@ const slidersBienvenida = ref([]);
   font-weight: bold;
   color: white;
   width: 29vw;
-  height: 10%;
+  height: 14%;
   position: absolute;
   left: 22%;
   top: -16%;
@@ -227,8 +227,8 @@ const slidersBienvenida = ref([]);
 
 .item-slider img {
     object-fit: scale-down;
-     width: 70% !important;
-    height: 30%; 
+    width: 50% !important;
+    height: 20%; 
 }
 
 @media  (min-height:280px) and (orientation: landscape) {
@@ -274,6 +274,11 @@ const slidersBienvenida = ref([]);
   font-size: 2em;
 
 }
+  .item-slider img {
+    object-fit: scale-down;
+    width: 30% !important;
+    height: 200%; 
+}
 
 }
 
@@ -298,14 +303,20 @@ const slidersBienvenida = ref([]);
   font-weight: bold;
   color: white;
   width: 29vw;
-  height: 10%;
+  height: 12%;
   position: absolute;
   left: 22%;
-  top: -16%;
+  top: 1%;
   transform: translate(-50%, -200%);
   font-family: Source Sans Pro;
   font-size: 4em;
 
+}
+
+.item-slider img {
+    object-fit: scale-down;
+    width: 50% !important;
+    height: 200%; 
 }
 
 }
@@ -322,6 +333,12 @@ const slidersBienvenida = ref([]);
    font-size: 4em;
 
   }
+  .item-slider img {
+    object-fit: scale-down;
+    width: 60% !important;
+    height: 200%; 
+}
+
 
 }
 

@@ -232,7 +232,7 @@ p {
   .responsive-instrucciones {
     width: 70vh;
     height: auto;
-    margin-top: 10%;
+    margin-top: 1%;
   }
 
   .tituloP{

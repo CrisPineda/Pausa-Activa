@@ -109,13 +109,13 @@ const styleImagenTexto = reactive({
 
 .texto-instrucciones {
     width: 70vw;
-    height: 37vw;
+    height: 34vw;
     max-height: 38vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 1%;
-    padding: 14px 0px;
+    padding: 6px 44px;
 }
 
 .texto-instrucciones div {
@@ -123,8 +123,8 @@ const styleImagenTexto = reactive({
 }
 
 .texto {
-    width: 65%;
-    height: 42em;
+    width: 62%;
+    height: 41em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,7 +132,7 @@ const styleImagenTexto = reactive({
     justify-content: center;
     color: white;
     font-family: Source Sans Pro;
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: normal;
     grid-gap: 1rem;
 }
@@ -146,4 +146,52 @@ const styleImagenTexto = reactive({
 .fade-leave-to {
     opacity: 0;
 }
+
+@media (min-width: 801px) and (max-width: 1023px) and (orientation: landscape) {
+
+    .texto-instrucciones {
+    width: 80vw;
+    height: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1%;
+    padding: 5px 46px;
+}
+
+.texto {
+    width: 65%;
+    height: 42em;
+    line-height: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-family: Source Sans Pro;
+    font-size: 90%;
+    font-weight: 100%;
+    grid-gap: 0.8rem;
+}
+
+}
+
+@media (min-width: 1368px) and (orientation: landscape) {
+.texto {
+    width: 62%;
+    height: 40em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-family: Source Sans Pro;
+    font-size: 1em;
+    font-weight: normal;
+    grid-gap: 2rem;
+}
+}
+
 </style>

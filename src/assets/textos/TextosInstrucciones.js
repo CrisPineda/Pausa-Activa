@@ -2,16 +2,16 @@ export const instruccionesBienvenida = [
     '1. Deberá ingresar su nombre y dar autorización o no al acceso de su cámara web. <br> <br>' +
     ' Nota: si no tiene cámara web, no se preocupe, igual podrá jugar.',//slider1
 
-    '2.	Será redirigido al escenario donde el personaje del juego se movilizará de casilla en casilla sin necesidad de dar clic sobre ningún punto de la pantalla.<br> <br>' +
+    '2. Será redirigido al escenario donde el personaje del juego se movilizará de casilla en casilla sin necesidad de dar clic sobre ningún punto de la pantalla.<br> <br>' +
     'Al llegar a cada una de las casillas, lea atentamente las instrucciones que se presentan y realice las dinámicas de juegos que mostrarán las pausas activas.',//slider2
 
-    '3.	Para la realización de las pausas activas, debe primero ejecutar correctamente la dinámica de juego que se le presente.',//slider3
+    '3. Para la realización de las pausas activas, debe primero ejecutar correctamente la dinámica de juego que se le presente.',//slider3
 
     '4.	Posterior a ejecutar correctamente 2 dinámicas de juegos junto con las pausas activas planteadas en estas, deberá responder correctamente 3 preguntas que se plantearán en la dinámica de la ruleta.' ,//slider4
 
     '5.	Por último, al finalizar el recorrido del escenario se presentará un balance con los resultados de los beneficios obtenidos por la correcta realizaión de las pausas activas. <br>' +
 
-    'Los resultados se presentarán de la siguiente manera: <br>' +
+    'Los resultados se presentarán de la siguiente m`anera: <br>' +
     'Barra roja: medición de la salud. <br>' +
     'Barra azul: medición del estrés. <br>' +
     'Barra verde: medición de energía. <br>' +

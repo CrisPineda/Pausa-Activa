@@ -365,6 +365,21 @@ h4 {
     transition: 0.5s;
     cursor: pointer;
 }
+.btn-primary2 {
+    background-color: var(--azul-axa);
+    color: var(--blanco);
+    width: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 45px;
+    font-size: 15px;
+    display: inline-block;
+    padding: 0 25px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    cursor: pointer;
+}
 
 
 .btn-primary-vr1 {

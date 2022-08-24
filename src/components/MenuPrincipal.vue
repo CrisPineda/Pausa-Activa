@@ -53,7 +53,7 @@
                 <div class="botones-menu flex-center-elements-column gap-2">
 
                     <div class="btn-primary2 info" @click="mostrarInstrucciones">Instrucciones Generales</div>
-                    <div class="btn-primary2 info" @click="ReiniciarPartida">Volver al Escenario</div>
+                    <div class="btn-primary2 info" @click="RegresarEscenario">Volver al Escenario</div>
                     <div class="btn-primary2 info" @click="ReiniciarConfiguracion">Reiniciar Configuración</div>
                 </div>
 
@@ -136,6 +136,12 @@ const ReiniciarPartida = () => {
     router.go(router.currentRoute.value.path)
 
 }
+
+const RegresarEscenario = () => {
+    config.setMenuEstadoVisible(false)
+    router.push(`/Escenario`);
+}
+
 
 const ReiniciarConfiguracion = () => {
     config.reiniciarTodoActividad()

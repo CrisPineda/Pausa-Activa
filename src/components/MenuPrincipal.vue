@@ -12,7 +12,7 @@
                     }}
 
                     </div>
-                    <button class="botonsalida info">X</button>
+                    <button class="botonsalida info"  @click="ocultarMenuPrincipal">X</button>
                 </div>
 
                 <div class="title">
@@ -52,11 +52,9 @@
 
                 <div class="botones-menu flex-center-elements-column gap-2">
 
-                    <div class="btn-primary2 info" @click="mostrarInstrucciones">Instrucciones</div>
-                    <div class="btn-primary2 info" @click="ReiniciarPartida">Reiniciar Partida</div>
+                    <div class="btn-primary2 info" @click="mostrarInstrucciones">Instrucciones Generales</div>
+                    <div class="btn-primary2 info" @click="ReiniciarPartida">Volver al Escenario</div>
                     <div class="btn-primary2 info" @click="ReiniciarConfiguracion">Reiniciar Configuración</div>
-                    <div class="btn-primary2 info" @click="ocultarMenuPrincipal">Salir</div>
-
                 </div>
 
             </div>
@@ -141,6 +139,8 @@ const ReiniciarPartida = () => {
 
 const ReiniciarConfiguracion = () => {
     config.reiniciarTodoActividad()
+    config.setMenuEstadoVisible(false)
+    router.push(`/`);
 }
 
 const mostrarInstrucciones = () => {

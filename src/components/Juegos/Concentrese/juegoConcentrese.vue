@@ -951,7 +951,7 @@ h3 {
     grid-template-columns: 2fr 1fr;
     place-content: center;
     place-items: center;
-    width: 61vw;
+    width: 78vw;
     margin: 0px auto;
 }
 

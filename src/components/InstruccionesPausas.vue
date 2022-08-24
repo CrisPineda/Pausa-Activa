@@ -26,7 +26,7 @@
 
             </div>
             <div v-if="!isCerrarVisible" class="botones-menu flex-center-elements-column gap-2">
-                <div class="btn-primary" @click="ocultarVentanaInstruccionesPausa">Continuar</div>
+                <div class="btn-primary2" @click="ocultarVentanaInstruccionesPausa">Continuar</div>
             </div>
         </div>
     </div>
@@ -213,9 +213,9 @@ hr {
 
 
 .config-opciones {
-    height: 17vh;
+    height: 80vh;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: Source Sans Pro;
 }
 
@@ -230,12 +230,12 @@ hr {
         display: grid;
         justify-content: center;
         align-items: center;
-        width: 81%;
+        width: 50%;
         align-content: center;
         margin: 13px auto;
         height: auto;
         padding: 7px;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 100% 1fr;
     }
 
 }

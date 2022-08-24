@@ -882,6 +882,7 @@ h3 {
     font-size: var(--h2-title-size);
     color: black;
     font-weight: normal;
+    margin-top: 7%;
 }
 
 
@@ -953,8 +954,8 @@ h3 {
     flex-direction: column;
     place-items: center;
     justify-content: center;
-    width: 80vw;
-    height: 87vh;
+    width: 81vw;
+    height: 90vh;
     grid-gap: 9px;
     padding: 20px 0px;
     background-color: white;
@@ -998,7 +999,7 @@ h3 {
 }
 
 .imagenes-opciones img {
-    width: 207px;
+
     height: -webkit-fill-available;
     border-radius: 12px;
     object-fit: scale-down;
@@ -1102,10 +1103,10 @@ h3 {
 
 .contenedor-ejercicio-pausas {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 0fr;
     place-content: center;
     place-items: center;
-    width: 53vw;
+    width: 78vw;
     margin: 0px auto;
 }
 

@@ -644,9 +644,6 @@ h4 {
     cursor:pointer
 }
 
-
-
-
 .ventana-pregunta-ruleta {
     width: 50vw;
     height: 60vh;
@@ -1274,7 +1271,7 @@ h4 {
   }
 
   .button-bs {
-    line-height: 500%;
+    line-height: 200%;
     padding: 1% 100%;
       
   }
@@ -1365,7 +1362,7 @@ h4 {
         }
       
         .button-bs {
-            line-height: 500%;
+            line-height: 300%;
             padding: 1% 100%;
             
         }

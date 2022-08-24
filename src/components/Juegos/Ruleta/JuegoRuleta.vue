@@ -57,8 +57,8 @@
             <span style="font-size:2em">{{ puntosBuenos }}</span> <span>Respuestas seguidas</span>
         </template>
         <template #botones>
-            <div class="btn-primary" @mousemove="confity" @click="continuarTrivia">CONTINUAR TRIVIA</div>
-            <div class="btn-primary" @mousemove="confity" @click="volveraAlEscenario">VOLVER AL
+            <div class="btn-primary2" @mousemove="confity" @click="continuarTrivia">CONTINUAR TRIVIA</div>
+            <div class="btn-primary2" @mousemove="confity" @click="volveraAlEscenario">VOLVER AL
                 ESCENARIO</div>
             <!-- <button class="btn-primary-vr1" @mousemove="confity" @click="salirActividad" @id="salir">SALIR</button>
                 <a href="#" @click="quitBox">Close Window</a> -->

@@ -360,7 +360,7 @@ function funcionConRetraso3() {
 @media screen and (min-width: 1024px) and (max-width: 1367px) {
    .intrucciones {
     font-family: Source Sans Pro;
-    font-size: 130%;
+    font-size: 125%;
     line-height: 130%;
     color: black;
     margin-top: 10%;

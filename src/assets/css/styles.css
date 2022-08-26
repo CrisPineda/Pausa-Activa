@@ -220,13 +220,13 @@ h4 {
 
 
 .titulos-ventanas-intro {
-    width: 80%;
+    width: 100%;
     font-family: Source Sans Pro;
     font-size: 1.8em;
     font-weight: bold;
     margin: 2px;
     text-align: center;
-    margin: 0px auto
+    margin-top: 5%;
 }
 
 .contenedor-central {
@@ -1103,6 +1103,11 @@ h4 {
       margin:7px 2px
   }
 
+  .btn-primary{
+    padding: 9% 100%;
+    margin-left: -44%;
+}
+
 
 }
 
@@ -1183,10 +1188,9 @@ h4 {
       
   }
 
- .btn-primary{
-    line-height: 100%;
-    padding: 6% 100%;
-    margin-bottom: 90%;
+  .btn-primary{
+    padding: 9% 100%;
+    margin-left: -44%;
 }
  
 
@@ -1208,9 +1212,7 @@ h4 {
       height: 216px;
   }
 
-  .titulos-ventanas-intro{
-     /*  display: none; */
-  }
+
 
   .config-opciones{
       font-size: 0.8em;
@@ -1277,11 +1279,9 @@ h4 {
   }
 
   .btn-primary{
-    line-height: 100%;
-    padding: 6% 100%;
-    margin-bottom: 90%;
+    padding: 9% 100%;
+    margin-left: -44%;
 }
-
 
   .contenedor-central{
       width: 483px;
@@ -1299,10 +1299,6 @@ h4 {
   #contenedor-video {
       width: 72vh;
       height: 216px;
-  }
-
-  .titulos-ventanas-intro{
-     /*  display: none; */
   }
 
   .config-opciones{
@@ -1368,9 +1364,8 @@ h4 {
         }
       
         .btn-primary{
-            line-height: 200%;
-            padding: 20% 50%;
-            margin-bottom: 41%;
+            padding: 9% 100%;
+            margin-left: -44%;
         }
        
       

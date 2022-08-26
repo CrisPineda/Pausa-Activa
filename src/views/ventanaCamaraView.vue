@@ -123,7 +123,7 @@ const habilitarCamara = () => {
     width: 43vh;
     height: 22vh;
     position: relative;
-    top: -43px;
+    top: 30%;
     margin: 0px auto;
 }
 

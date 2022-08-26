@@ -260,24 +260,10 @@ function funcionConRetraso3() {
     justify-content: center;
     align-items: center;
 }
-@media (min-width: 360px) and (max-width: 767px) and (orientation: landscape) {
-     .intrucciones {
-    font-family: Source Sans Pro;
-    font-size: 130%;
-    line-height: 130%;
-    color: black;
-    font-weight: normal;
-    text-align: left;
-    height: 35vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.slider-instrucciones {
+@media (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
+   .slider-instrucciones {
     width: 100%;
-    height: 110%;
+    height: 100%;
     display: flex;
     align-items: center;
     align-content: center;
@@ -285,7 +271,12 @@ function funcionConRetraso3() {
     flex-direction: column;
 }
 
-.contenedor-slider {
+    .texto-instrucciones {
+        width: 70vw;
+        height: 130px;
+    }
+
+    .contenedor-slider {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -293,18 +284,26 @@ function funcionConRetraso3() {
 
 .contenedor-items-slider {
     display: flex;
-    margin: 0px auto;
-    /*     overflow: hidden; */
+    margin: 1% -14%;
     flex-wrap: nowrap;
     justify-content: start;
     align-items: center;
     align-content: center;
 }
- .texto-instrucciones {
-        width: 70vw;
-        height: 130px;
-    }
 
+      .intrucciones {
+    font-family: Source Sans Pro;
+    font-size: 100%;
+    line-height: 100%;
+    color: black;
+    font-weight: normal;
+    text-align: left;
+    width: 75%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 }
 //MediaDevices/* Media querys*/

@@ -146,6 +146,35 @@ const styleImagenTexto = reactive({
 .fade-leave-to {
     opacity: 0;
 }
+@media (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
+
+   .texto-instrucciones {
+    width: 80vw;
+    height: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1%;
+    padding: 5px 46px;
+}
+
+.texto {
+    width: 65%;
+    height: 42em;
+    line-height: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-family: Source Sans Pro;
+    font-size: 90%;
+    font-weight: 100%;
+    grid-gap: 0.8rem;
+}
+
+}
 
 @media (min-width: 801px) and (max-width: 1023px) and (orientation: landscape) {
 

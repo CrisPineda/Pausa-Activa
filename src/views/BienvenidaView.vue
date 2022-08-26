@@ -49,7 +49,7 @@
           </div>
           <div class="btn-jugar auto flex-center-elements-row gap-2" style="text-align:center"
             @click="ocultarVentanaInstrucciones">
-            <div class="btn-primary" > CONTINUAR</div>
+            <div class="btn-primary2" > CONTINUAR</div>
           </div>
 
         </template>
@@ -208,11 +208,11 @@ const slidersBienvenida = ref([]);
   width: 29vw;
   height: 14%;
   position: absolute;
-  left: 22%;
-  top: -16%;
+  left: 18%;
+  top: -18%;
   transform: translate(-50%, -50%);
   font-family: Source Sans Pro;
-  font-size: 4em;
+  font-size: 2em;
 
 }
 
@@ -227,14 +227,14 @@ const slidersBienvenida = ref([]);
 
 .item-slider img {
     object-fit: scale-down;
-    width: 50% !important;
+    width: 35% !important;
     height: 20%; 
 }
 
-@media  (min-height:280px) and (orientation: landscape) {
+@media  (min-width:360px) and (max-width: 800px) and (orientation: landscape) {
 
-  .tituloP{
-   margin-top: 5%;
+   .tituloP{
+   margin-top: 10%;
    align-self: self-start;
    font-weight: bold;
    color: white;
@@ -242,7 +242,28 @@ const slidersBienvenida = ref([]);
    font-size: 4em;
 
   }
-  
+
+  .tituloI{
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  font-weight: bold;
+  color: white;
+  width: 37%;
+  height: 10%;
+  position: absolute;
+  left: 22%;
+  top: -20%;
+  transform: translate(-50%, -50%);
+  font-family: Source Sans Pro;
+  font-size: 2em;
+
+}
+  .item-slider img {
+    object-fit: scale-down;
+    width: 30% !important;
+    height: 200%; 
+}
 
 }
 

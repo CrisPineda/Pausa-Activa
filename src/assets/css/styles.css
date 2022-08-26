@@ -372,13 +372,14 @@ h4 {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    line-height: 45px;
+    line-height: 20px;
     font-size: 15px;
     display: inline-block;
     padding: 0 25px;
     letter-spacing: 1px;
     transition: 0.5s;
     cursor: pointer;
+    margin-bottom: 0%;
 }
 
 
@@ -1094,43 +1095,92 @@ h4 {
 
 @media (min-width: 360px) and (max-width:800px) and (orientation: landscape) {
 
+    .contenedor-ejercicio-pausas {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-content: center;
+        place-items: center;
+        width: 61vw;
+        margin: 0px auto;
+        overflow: scroll;
+    }
+  
+    .texto-instrucciones {
+        height: 80% !important
+    }
+  
+    .slider-instrucciones {   
+      height: 100% !important
+  }
+  
+  
+  .contenedor-items-slider{
+      width: 100%;
+  
+  }
+  
+    .item-slider {
+      text-align: center;
+      width: 46rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;   
+    }
+  
+     .item-slider img {
+      /*   object-fit: cover; */
+          width: 46vw;
+          height: center;
+     }
+  
     p {
-      font-size: 1.6em;
-      line-height: 15px;
-      font-family: Source Sans pro;
-      text-align: justify;
-      padding:0px;
-      margin:7px 2px
+        font-size: 1.2em;
+        line-height: 13px;
+        font-family: Source Sans pro;
+        text-align: justify;
+        padding: 4px;
+        margin-top: -4%;
+    }
+  
+    .button-bs {
+      line-height: 250%;
+      padding: 1% 100%;
+        
+    }
+  
+    .btn-primary{
+      padding: 9% 100%;
+      margin-left: -44%;
   }
+   
+  
+    .contenedor-central{
+        width: 483px;
+        height: 79vh;
+    }
+  
+    .icono-perfil {
+        top: -14px;
+    }
+  
+    .camara-web {
+        top: -6px;
+    }
+  
+    #contenedor-video {
+        width: 72vh;
+        height: 216px;
+    }
+  
+  
+  
+    .config-opciones{
+        font-size: 0.8em;
+    }
 
-  .btn-primary{
-    padding: 9% 100%;
-    margin-left: -44%;
 }
 
-
-}
-
-
-/* Media querys*/
-@media screen and (max-width: 640px) {
-  h1 {
-      --h1-title-size: 1.5em;
-      font-size: var(--h1-title-size);
-  }
-
-
-
-  .responsive {
-      width: 79vh;
-      height: auto;
-  }
-
-  .texto {
-      width: 65%;
-      height: 15em;
-  }
-}
 
 @media (min-width: 801px) and (max-width: 1023px) and (orientation: landscape) {
 
@@ -1183,8 +1233,9 @@ h4 {
   }
 
   .button-bs {
-    line-height: 500%;
-    padding: 1% 100%;
+    line-height: 300%;
+    padding: 1% 80%;
+    margin-top: 4%;
       
   }
 

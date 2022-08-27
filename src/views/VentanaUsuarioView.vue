@@ -126,4 +126,29 @@ input#usuarionombre[type=text] {
 }
 
 
+@media screen and (min-width:360px) and (max-width: 800px) and (orientation: landscape) {
+.icono-perfil {
+    background-image: url('@/assets/img/perfil-icon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 100%;
+    height: 22vh;
+    margin-top: 27%;
+    position: relative;
+}
+
+input#usuarionombre[type=text] {
+  width: 11em;
+  height: 1em;
+  padding: 8px;
+  border:2px solid var(--azul-axa);
+  margin: -23% 0 1%;
+  /* box-shadow: 3px 3px #F0F0F0; */
+  background-color: #FFFFFF;
+ /*  border-radius: 12px; */
+}
+
+}
+
 </style>

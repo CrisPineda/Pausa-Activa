@@ -362,7 +362,6 @@ function funcionConRetraso3() {
     font-size: 125%;
     line-height: 130%;
     color: black;
-    margin-top: 10%;
     font-weight: normal;
     text-align: left;
     width: 88%;

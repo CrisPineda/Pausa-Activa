@@ -134,7 +134,7 @@ input#usuarionombre[type=text] {
     background-size: contain;
     width: 100%;
     height: 22vh;
-    margin-top: 27%;
+    margin-top: 18%;
     position: relative;
 }
 

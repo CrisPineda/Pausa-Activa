@@ -230,8 +230,8 @@ h4 {
 }
 
 .contenedor-central {
-    width: 483px;
-    height: 533px;
+    width: 70vw;
+    height: 40vw;
     background-color: white;
     border-radius: 4%
 }
@@ -1155,10 +1155,13 @@ h4 {
   }
    
   
-    .contenedor-central{
-        width: 483px;
-        height: 79vh;
-    }
+  .contenedor-central {
+    width: 100%;
+    height: 110%;
+    background-color: white;
+    border-radius: 4%
+}
+
   
     .icono-perfil {
         top: -14px;

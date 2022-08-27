@@ -28,8 +28,8 @@
             </template>
             <template #button-ventana>
                 <div v-if="!camaraReady" class="flex-center-elements-row gap-4">
-                    <div class="btn-primary" @click="config.habilitarCamara()">SÍ</div>
-                    <div class="btn-primary" @click="habilitarCamara">NO</div>
+                    <div class="btn-primary2" @click="config.habilitarCamara()">SÍ</div>
+                    <div class="btn-primary2" @click="habilitarCamara">NO</div>
                 </div>
                 <div v-else>
                     <!--  :class="{ 'disable-button': !camaraWebCargada }" -->

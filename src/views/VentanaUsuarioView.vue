@@ -35,7 +35,7 @@
           @click="guardar = !guardar">
           GUARDAR
         </div>
-        <div class="btn-primary flex-center-elements-row gap-3">
+        <div class="btn-primary2 flex-center-elements-row gap-3">
           CONTINUAR
         </div>
       </template>

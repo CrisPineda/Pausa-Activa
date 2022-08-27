@@ -80,8 +80,6 @@ const hiddenWindow = () => {
 
 <style lang="css" scoped>
 .contenedor-central {
-    width: 483px;
-    height: 583px;
     background-color: #fff;
     border-radius: 4%;
 }

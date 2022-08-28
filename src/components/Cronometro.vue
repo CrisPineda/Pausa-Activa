@@ -218,12 +218,12 @@ onUnmounted(() => {
 <style lang="css" scoped>
 /* Cronometro */
 .base-timer {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  top: -18px;
-  right: 0rem;
-  float: right;
+    position: absolute;
+    width: 143px;
+    height: 19%;
+    top: 0px;
+    right: 0rem;
+    float: right;
 }
 
 .base-timer__svg {
@@ -262,20 +262,19 @@ onUnmounted(() => {
   color: red;
 }
 
-.base-timer__label {
-  position: absolute;
-  width: -webkit-fill-available;
-  height: -webkit-fill-available;
-  top: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3em;
-  font-family: Source Sans pro;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.base-timer__label{
+    position: absolute;
+    width: -webkit-fill-available;
+    height: 10%;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-family: Source Sans pro;
+    left: 63%;
+    transform: translate(-50%, -50%);
 }
-
 .animate_blinks {
   animation: bliks 1s infinite
 }

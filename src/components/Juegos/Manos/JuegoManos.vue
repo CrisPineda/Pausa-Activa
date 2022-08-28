@@ -154,7 +154,7 @@
 
                     </div>
                     <div
-                        :style="{ border: `1.35px solid black`, background: `transparent url(${ImagenManoCompleta}) no-repeat center center`, width: '320px', height: '320px', backgroundSize: '100% 100%', width: '300px' }">
+                        :style="{ border: `1.35px solid black`, background: `transparent url(${ImagenManoCompleta}) no-repeat center center`, width: '320px', height: '92%', backgroundSize: '100% 100%', width: '49vh' }">
                         <!-- <img :id="mostrarImagen" :src="mostrarImagen" alt="" width="320" height="320"> -->
                     </div>
 

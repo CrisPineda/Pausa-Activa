@@ -215,17 +215,23 @@ hr {
 .config-opciones {
     height: 82vh;
     text-align: center;
-    font-size: 100%;
+    font-size: 92%;
     font-family: Source Sans Pro;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
 
     .contenedor-central-menu {
         width: 78vw;
         height: 90vh;
     }
 
+.config-opciones{
+    height: 86vh;
+    text-align: center;
+    font-size: 88%;
+    font-family: Source Sans Pro;
+}
     .botones-menu {
         display: grid;
         justify-content: center;

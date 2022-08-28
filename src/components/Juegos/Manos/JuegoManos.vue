@@ -119,10 +119,10 @@
 
 
                         <div>
-                            <div v-if="activarBotonComprobar" class="btn-primary" @click="comprobarRespuesta">
+                            <div v-if="activarBotonComprobar" class="btn-primary2" @click="comprobarRespuesta">
                                 COMPROBAR
                             </div>
-                            <div v-if="activarBotonRepetir" class="btn-primary" @click="repetirOpciones">MODIFICAR
+                            <div v-if="activarBotonRepetir" class="btn-primary2" @click="repetirOpciones">MODIFICAR
                             </div>
                         </div>
 
@@ -525,7 +525,6 @@ h3 {
 
 .contenedor-opciones {
     width: 70vw;
-    grid-gap: 1, 4rem;
     height: 26rem;
     margin: 0px auto
         /* margin-top: 4em;*/
@@ -604,7 +603,7 @@ h3 {
 
 .titulo-instruccion {
     font-family: Source Sans Pro;
-    font-size: var(--h2-title-size);
+    font-size: 99%;
     color: black;
     font-weight: normal;
     width: 99%;
@@ -613,7 +612,7 @@ h3 {
 
 @media (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
 
-    .contenedor-mensaje[data-v-f1691baa] {
+    .contenedor-mensaje {
     width: 74vw;
     height: 90%;
     background-color: white;
@@ -621,20 +620,29 @@ h3 {
     filter: drop-shadow(2px 4px 6px black);
 }
 
+.contenedor-ejercicio-pausas{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    place-content: center;
+    place-items: center;
+    width: 85vw;
+    margin: -29px auto;
+}
+
 .contenedor-opciones {
-    width: 70vw;
-    height: 26rem;
-    margin: 0px auto
+    width: 74vw;
+    height: 19rem;
+    margin-bottom: 11%;
         /* margin-top: 4em;*/
 }
 
 .titulo-instruccion {
     font-family: Source Sans Pro;
-    font-size: var(--h2-title-size);
+    font-size: 80%;
     color: black;
     font-weight: normal;
     width: 100%;
-    margin-top: 7%;
+    margin-top: 18%;
     text-align: center
 }
 
@@ -645,12 +653,11 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    height: 47%;
+    height: 37%;
     width: 100%;
     margin: 0px auto;
     place-content: center;
     place-items: center;
-    /* overflow: hidden; */
 }
 
 

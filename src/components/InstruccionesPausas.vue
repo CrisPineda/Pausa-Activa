@@ -213,9 +213,9 @@ hr {
 
 
 .config-opciones {
-    height: 80vh;
+    height: 82vh;
     text-align: center;
-    font-size: 1em;
+    font-size: 100%;
     font-family: Source Sans Pro;
 }
 

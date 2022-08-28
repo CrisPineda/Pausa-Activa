@@ -1106,7 +1106,7 @@ h3 {
     grid-template-columns: 2fr 0fr;
     place-content: center;
     place-items: center;
-    width: 78vw;
+    width: 80vw;
     margin: 0px auto;
 }
 

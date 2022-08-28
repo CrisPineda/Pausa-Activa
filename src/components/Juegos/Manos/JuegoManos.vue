@@ -140,7 +140,7 @@
             @eventOcultarInstrucciones="isInstruccionesPausaVisible = !isInstruccionesPausaVisible">
             <template #texto-instrucciones>
                 <div>
-                    <img src="@/assets/img/mensaje.png" width="580" alt="">
+                    <img src="@/assets/img/mensaje.png" width="500" height="69"  alt="">
                 </div>
                 <div class="contenedor-ejercicio-pausas  gap-1">
 
@@ -625,8 +625,8 @@ h3 {
     grid-template-columns: 2fr 1fr;
     place-content: center;
     place-items: center;
-    width: 85vw;
-    margin: -29px auto;
+    width: 80vw;
+    margin: -33px auto;
 }
 
 .contenedor-opciones {

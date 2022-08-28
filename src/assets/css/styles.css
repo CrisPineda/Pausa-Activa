@@ -1104,6 +1104,20 @@ h4 {
         margin: 0px auto;
         overflow: scroll;
     }
+
+    .texto-descripcion-pausas {
+    text-align: justify;
+    font-family: Source Sans Pro;
+    font-size: 1.em;
+    color: black;
+    font-weight: normal;
+    height: 33vw;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    flex-direction: column;
+    overflow-y: auto;
+}
   
     .texto-instrucciones {
         height: 80% !important

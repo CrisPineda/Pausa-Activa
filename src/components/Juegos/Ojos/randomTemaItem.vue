@@ -131,7 +131,7 @@ const filtrarImagenes = computed(() => {
 
 .tema-texto {
     font-family: Source Sans Pro;
-    font-size: 1em;
+    font-size: 80%;
     color: black;
     font-weight: normal;
     line-height: 2pc;

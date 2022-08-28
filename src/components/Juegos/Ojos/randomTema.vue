@@ -7,7 +7,7 @@
       " v-for="(recuadros, index) in cantidadTemas" :key="`recuadros-${index}`">
       <RandomTemaItem class="flex-center-elements-column  gap-3 " @finSeleccionTemas="temasSeleccionados" />
       <div class="auto flex-center-elements-row gap-2" style="text-align:center">
-        <div class="btn-primary" @click="continuarActividad">CONTINUAR</div>
+        <div class="btn-primary2" @click="continuarActividad">CONTINUAR</div>
       </div>
     </div>
   </div>

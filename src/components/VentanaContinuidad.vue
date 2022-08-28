@@ -13,8 +13,8 @@
                 <div class="title"> ¿Desea continuar con el avance guardado?</div>
                 <div>
                     <div class="flex-center-elements-row gap-3">
-                        <div class="btn-primary" @click="openFullscreen('si')"> SI </div>
-                        <div class="btn-primary" @click="openFullscreen('no')"> NO </div>
+                        <div class="btn-primary2" @click="openFullscreen('si')"> SI </div>
+                        <div class="btn-primary2" @click="openFullscreen('no')"> NO </div>
                     </div>
                 </div>
             </div>

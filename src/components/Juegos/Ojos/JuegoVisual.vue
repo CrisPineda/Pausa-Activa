@@ -40,7 +40,7 @@
       </div>
       <div class="btn-jugar auto flex-center-elements-row gap-2" style="text-align:center"
         @click="ocultarVentanaInstrucciones">
-        <div class="btn-primary"> CONTINUAR</div>
+        <div class="btn-primary2"> CONTINUAR</div>
       </div>
 
     </template>

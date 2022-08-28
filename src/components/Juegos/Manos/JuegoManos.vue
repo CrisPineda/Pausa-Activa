@@ -673,13 +673,20 @@ h3 {
     flex-wrap: wrap;
     justify-content: center;
     height: 50%;
-    width: 100%;
+    width: 103%;
     place-items: center;
 }
 
-.contenedor-mensaje {
-    width: 74vw;
-    height: 20em;
+.contenedor-opciones{
+    width: -1vw;
+    height: 26rem;
+    margin: 0px auto
+        /* margin-top: 4em;*/;
+}
+
+.contenedor-mensaje{
+    width: 81vw;
+    height: 25em;
     background-color: white;
     border-radius: 23px;
     filter: drop-shadow(2px 4px 6px black);
@@ -688,6 +695,56 @@ h3 {
 }
 
 
+@media (min-width: 1024px) and (max-width: 1367px) and (orientation: landscape) {
 
+.contenedor-opciones-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    width: 89%;
+    margin: 0px auto;
+    place-content: center;
+    place-items: center;
+    /* overflow: hidden; */
+}
+
+.contenedor-mensaje {
+    width: 80vw;
+    height: 38em;
+    background-color: white;
+    border-radius: 23px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+}
+
+@media  screen and (min-width: 1368px) and (orientation: landscape) {
+
+    .contenedor-opciones-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    width: 95%;
+    margin: 0px auto;
+    place-content: center;
+    place-items: center;
+}
+
+    .contenedor-mensaje{
+    width: 82vw;
+    height: 42em;
+    background-color: white;
+    border-radius: 23px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+}
 
 </style>

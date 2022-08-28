@@ -133,10 +133,10 @@ input[type=text]{
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
 
     .gap-1{
-        grid-gap:12px ;
+        grid-gap:4px ;
     }
     
     
@@ -146,7 +146,7 @@ input[type=text]{
     
     
     .gap-3{
-        grid-gap:32px ;
+        grid-gap:0px ;
     }
     
     .gap-4{

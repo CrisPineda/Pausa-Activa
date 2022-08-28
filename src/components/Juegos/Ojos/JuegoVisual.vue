@@ -93,7 +93,7 @@
     </template>
     <template #botones>
       <!-- <button class="btn-primary-vr1" @mousemove="confity" @click="continuarTrivia">CONTINUAR TRIVIA!</button> -->
-      <div class="btn-primary" @mousemove="confity" @click="volverEscenario">VOLVER AL ESCENARIO</div>
+      <div class="btn-primary2" @mousemove="confity" @click="volverEscenario">VOLVER AL ESCENARIO</div>
       <!--  <button class="btn-primary-vr1" @mousemove="confity" id="salir">SALIR</button> -->
     </template>
   </VentanaPuntosFinal>

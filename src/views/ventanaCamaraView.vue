@@ -34,7 +34,7 @@
                 <div v-else>
                     <!--  :class="{ 'disable-button': !camaraWebCargada }" -->
                     <div
-                        class="btn-primary flex-center-elements-row gap-4" @click="habilitarCamara">
+                        class="btn-primary2 flex-center-elements-row gap-4" @click="habilitarCamara">
                         CONTINUAR
                     </div>
                 </div>

@@ -353,33 +353,73 @@ const navegacion = () => {
     width: 230px
 }
 
-@media (min-width: 1281px) {
 
-    /* CSS */
-  
+@media screen and (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
+
+.sliders-order img {
+    width: 100%;
+    height: 15vh;
+    /* box-shadow: -1px -1px 16px inset black; */
+    border: 1px solid #00008F;
+    margin: 0px auto;
+    border-radius: 12px;
+    object-fit: scale-down;
 }
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-    /* CSS */
     .contenedor-principal-sliders {
-        height: 320px;
-        max-height: 47vh;
-        width: 230px
-    }
+    height: 100%;
+    max-height: 55vh;
+    width: 100%;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-    /* CSS */
-    .sliders-order img {
-        width: 20vh;
-        height: 20vh;
-    }
+.slider-style-dinamic {
+    height: 130vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
+
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1023px) and (orientation: landscape) {
+
+
+
+    .contenedor-principal-sliders {
+    height: 100%;
+    max-height: 55vh;
+    width: 100%;
+}
+
+
+
+    
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1367px) and (orientation: landscape) {
+
+.contenedor-principal-sliders {
+        height: 89%;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 1368px) {
+
+
+ .contenedor-principal-sliders {
+        height: 90%;
+        width: 100%;
+    }
+
+    }
+
+
+
 </style>
+
+

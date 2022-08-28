@@ -27,7 +27,7 @@
             </div>
             <div class="btn-jugar auto flex-center-elements-row gap-2" style="text-align:center"
                 @click="ocultarVentanaInstrucciones">
-                <div class="btn-primary"> CONTINUAR</div>
+                <div class="btn-primary2"> CONTINUAR</div>
             </div>
 
         </template>
@@ -108,7 +108,7 @@
 
                 <div v-if="!continuarActividad">
                     <div class="auto" style="text-align:center">
-                        <div class="btn-primary" @click="continuar">CONTINUAR</div>
+                        <div class="btn-primary2" @click="continuar">CONTINUAR</div>
                     </div>
                 </div>
                 <div>
@@ -532,15 +532,6 @@ h3 {
 }
 
 .contenedor-opciones-items {
-    /* display: flex;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 44vh;
-    width: 100%;
-    margin: 0px auto; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     align-content: center;
@@ -619,4 +610,77 @@ h3 {
     width: 99%;
     text-align: center
 }
+
+@media (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
+
+    .contenedor-mensaje[data-v-f1691baa] {
+    width: 74vw;
+    height: 90%;
+    background-color: white;
+    border-radius: 23px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.contenedor-opciones {
+    width: 70vw;
+    height: 26rem;
+    margin: 0px auto
+        /* margin-top: 4em;*/
+}
+
+.titulo-instruccion {
+    font-family: Source Sans Pro;
+    font-size: var(--h2-title-size);
+    color: black;
+    font-weight: normal;
+    width: 100%;
+    margin-top: 7%;
+    text-align: center
+}
+
+.contenedor-opciones-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 47%;
+    width: 100%;
+    margin: 0px auto;
+    place-content: center;
+    place-items: center;
+    /* overflow: hidden; */
+}
+
+
+}
+
+
+@media (min-width: 801px) and (max-width: 1023px) and (orientation: landscape) {
+
+    .contenedor-opciones-items{
+    display: grid;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    place-items: center;
+}
+
+.contenedor-mensaje {
+    width: 74vw;
+    height: 20em;
+    background-color: white;
+    border-radius: 23px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+}
+
+
+
+
 </style>

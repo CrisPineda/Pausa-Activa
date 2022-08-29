@@ -134,8 +134,9 @@ const pauseVideoPausa = () => {
     font-weight: 600
 }
 
-video {
-    width: 290px;
+video{
+    width: 105%;
+    height: 41vh;
     border: 1px solid blue;
 }
 

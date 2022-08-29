@@ -199,7 +199,7 @@
                             <div>Instrucciones</div>
                         </div>
                         <div>
-                            <div v-html="textoDescripcionPause" class="texto-descripcion-pausas"></div>
+                            <div v-html="textoDescripcionPause" class="texto-descripcion-pausas2"></div>
                         </div>
 
                     </div>

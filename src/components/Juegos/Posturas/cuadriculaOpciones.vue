@@ -35,7 +35,7 @@
             </div>
             <div class="btn-jugar auto flex-center-elements-row gap-2" style="text-align:center"
                 @click="ocultarVentanaInstrucciones">
-                <div class="btn-primary"> CONTINUAR</div>
+                <div class="btn-primary2"> CONTINUAR</div>
             </div>
 
         </template>
@@ -107,7 +107,7 @@
 
                     <div v-if="!opcionCorrecta" :style="styleCuadricula" class="auto" id="cuadricula">
                         <div style="border: 1px solid var(--azul-axa);
-    border-radius: 12px;overflow: hidden;" v-for="(imagen, index) in getRamdomimagen" :key="`cuadrado-${index}`">
+    border-radius: 12px; height: 100%; overflow: hidden;" v-for="(imagen, index) in getRamdomimagen" :key="`cuadrado-${index}`">
                             <!-- v-for="i in filas" :key="i" -->
                             <div v-if="!continuar"
                                 class="contenedor-opciones   animate__animated animate__fadeIn  animate__zoomIn">
@@ -176,7 +176,7 @@
                     <div class="button-bs"> COMENZAR</div>
                 </div>
                 <div class="auto flex-center-elements-row gap-2" style="text-align:center;height:5vh">
-                    <div v-if="BotonInicio" class="btn-primary" @click="continuarActividad">CONTINUAR</div>
+                    <div v-if="BotonInicio" class="btn-primary2" @click="continuarActividad">CONTINUAR</div>
                 </div>
             </div>
         </div>
@@ -435,17 +435,15 @@ const configActividad = reactive({
 
 const styleCuadricula = reactive({
     width: "auto",
-    height: "61vh",
+    height: "49vh",
     display: "grid",
     gridTemplateColumns: "repeat(3,1fr);",
     placeItems: "center",
     alignItems: "center",
     flexWrap: "wrap",
-    margin: "0px auto",
-    gridGap: "5vh 20vh",
+    margin: "-14px auto",
+    gridGap: "0vh 22vh",
 });
-
-
 
 
 const styleItemsCuadricula = reactive({
@@ -967,7 +965,14 @@ h3 {
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 801px) and (max-width: 1023px) and (orientation: landscape) {
+    .imagen-random-img img {
+        width: auto;
+        height: 14rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1367px) and (orientation: landscape) {
     .imagen-random-img img {
         width: auto;
         height: 14rem;

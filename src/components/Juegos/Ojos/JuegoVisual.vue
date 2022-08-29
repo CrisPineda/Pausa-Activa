@@ -85,7 +85,7 @@
         <img :src="ChetList" width="180" height="180" alt="">
       </div>
       <div v-else class="auto">
-        <img :src="WarnList" width="180" height="180" alt="">
+        <img :src="WarnList" width="100" height="100" alt="">
       </div>
     </template>
     <template #mensaje-opcion>

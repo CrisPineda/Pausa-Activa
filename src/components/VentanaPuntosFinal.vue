@@ -188,7 +188,8 @@ onBeforeUnmount(() => {
     border: 2px solid red
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
+
     .mensaje-opcion {
         font-size: 1.5em;
         color: white;
@@ -196,28 +197,97 @@ onBeforeUnmount(() => {
         font-family: Publico Banner
     }
 
-    .contenedor-mensajes {
-        height: 16%;
-       /*  margin-top: 22vh; */
-    }
+    .ventana-mensaje-puntos {
+    width: 100vw;
+    height: 100vh;
+    z-index: 9;
+    text-align: center;
+    background: transparent url(@/assets/img/fondoEscenario.png) no-repeat center center;
+    background-size: 100% 100%;
+}
 
-    .contenedor-mensaje {
-        height: 15rem;
-    }
-    
+
+    .contenedor-mensajes {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    grid-gap: 3vh;
+}
+
 
     .mensaje-opcion {
-        font-size: 1.5em;
-    }
+    font-size: 1.5em;
+    color: black;
+    height: inherit;
+    font-family: Publico Banner;
+}
 
     .info-mensaje {
         font-size: 1.8em;
     }
 
     .contenedor-puntos-buenos {
-        top: 11%;
-        font-size: 4em;
-        height: 26vh;
+    width: 100%;
+    height: 19vh;
+    font-size: 184%;
+    color: var(--blanco);
+    font-family: Publico Banner;
+    background-color: var(--azul-axa);
+    border-top-left-radius: 12px;
+    overflow: hidden;
+    border-top-right-radius: 12px;
+}
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1023px) and (orientation: landscape) {
+
+    .mensaje-opcion {
+        font-size: 1.5em;
+        color: white;
+        height: inherit;
+        font-family: Publico Banner
     }
+
+    
+
+    .contenedor-mensajes {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    grid-gap: 3vh;
+}
+
+
+    .mensaje-opcion {
+    font-size: 1.5em;
+    color: black;
+    height: inherit;
+    font-family: Publico Banner;
+}
+
+    .info-mensaje {
+        font-size: 1.8em;
+    }
+
+    .contenedor-puntos-buenos {
+    width: 100%;
+    height: 14vh;
+    font-size: 3.4em;
+    color: var(--blanco);
+    font-family: Publico Banner;
+    background-color: var(--azul-axa);
+    border-top-left-radius: 12px;
+    overflow: hidden;
+    border-top-right-radius: 12px;
+}
 }
 </style>

@@ -299,7 +299,7 @@ function funcionConRetraso3() {
     font-weight: normal;
     text-align: left;
     width: 75%;
-    height: 35vh;
+    height: 27vh;
     display: flex;
     justify-content: center;
     align-items: center;

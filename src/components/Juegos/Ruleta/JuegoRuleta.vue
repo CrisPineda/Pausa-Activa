@@ -766,141 +766,101 @@ hr {
     font-weight: normal;
 }
 
-
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-
-    /* CSS */
-    /*    .container-ruleta {
-       outline: 32px double red;
-    } */
+@media screen and (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
 
     .ruleta {
-        width: 53rem;
-        height: 487px;
+        width: 100%;
+        height: 100%;
     }
 
-    .indicador {
-        width: 12vw;
-        height: 11vw;
-        position: absolute;
-        top: 39%;
-        left: 168px;
-    }
+    
+.indicador {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 39%;
+    left: -1%;
+    box-shadow: 3px 3px solid black
+}
 
-    .baseRuleta {
-        width: 230px;
-        height: 25pc;
+     .baseRuleta {
+        width: 15vw;
+        height: 17vw;
         position: absolute;
         top: 89%;
-        left: 313px;
-        z-index: -9999;
+        left: 35%;
+        z-index: -9999
     }
 
-    .parent-ruleta {
+       .opcion-correcto::before {
+        content: '';
+        background: url('@/assets/img/check_awert.png') no-repeat;
+        background-size: contain;
         position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -16pc);
+        width: 3vw;
+        height: 5vh;
+        transform: translate(20%, -3px);
     }
+
+    .opcion-incorrecto::before {
+        content: '';
+        background: url('@/assets/img/check_wrong.png') no-repeat;
+        background-size: contain;
+        position: fixed;
+        width: 3vw;
+        height: 5vh;
+        transform: translate(20%, -3px);
+    }
+
+    .title {
+    
+    height: 10%;
+    width: 83%;
+    text-align: left;
+    color: black;
+    font-family: Source Sans Pro;
+    font-size: 1.2em;
 
 }
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-    /* CSS */
-    .container-ruleta {
-        outline: 32px double red;
-    }
-
-
-    .ruleta {
-        width: 53rem;
-        height: 29rem;
-    }
-
-    .indicador {
-        width: 12vw;
-        height: 11vw;
-        position: absolute;
-        top: 39%;
-        left: 168px;
-    }
-
-    .baseRuleta {
-        width: 15vw;
-        height: 17vw;
-        position: absolute;
-        top: 89%;
-        left: 324px;
-        z-index: -9999
-    }
-
-
+.titulo-incorrecto {
+    width: 100%;
+    height: 100%;
+    margin-top: -10%;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 100%;
+    color: red;
+    font-weight: normal;
 }
 
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
+.opciones-pregunta .opcion {
+    font-family: Publico Banner;
+    width: 17vw;
+    height: 46vh;
+    text-align: justify;
+    border: 3px solid var(--azul-axa);
+    vertical-align: middle;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1px;
+    cursor: pointer
+}
 
-@media (min-width: 768px) and (max-width: 1024px) {
+.opciones-pregunta[data-v-2b8900c3] {
+    display: flex;
+    width: 97%;
+    place-items: center;
+    grid-gap: 4vh;
+    padding: 3px;
+    flex-wrap: wrap;
+}
 
-    .title{
-        font-size: 1.3em;
-    }
-
-    /* CSS */
-    .container-ruleta {
-        outline: 32px double red;
-    }
-
-    .texto-pregunta {
-        font-size: 1rem;
-        line-height: 1.5em;
-    }
-
-
-    .ruleta {
-        width: 53rem;
-        height: 29rem;
-    }
-
-    .indicador {
-        width: 12vw;
-        height: 11vw;
-        position: absolute;
-        top: 39%;
-        left: 188px;
-    }
-
-    .baseRuleta {
-        width: 15vw;
-        height: 17vw;
-        position: absolute;
-        top: 89%;
-        left: 124px;
-        z-index: -9999
-    }
 
 
 }
 
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 801px) and (max-width: 1023px) and (orientation: landscape) {
 
     body {
         overflow: hidden
@@ -908,7 +868,16 @@ hr {
 
     .ruleta {
         width: 23rem;
-        height: 21em;
+        height: 22em;
+    }
+
+     .baseRuleta {
+        width: 15vw;
+        height: 17vw;
+        position: absolute;
+        top: 89%;
+        left: 35%;
+        z-index: -9999
     }
 
     .ruleta-completa {}
@@ -941,8 +910,8 @@ hr {
         background-size: contain;
         position: fixed;
         width: 3vw;
-        height: 3vh;
-        transform: translate(35vh, -3px);
+        height: 5vh;
+        transform: translate(20%, -3px);
     }
 
     .opcion-incorrecto::before {
@@ -951,8 +920,8 @@ hr {
         background-size: contain;
         position: fixed;
         width: 3vw;
-        height: 3vh;
-        transform: translate(35vh, -3px);
+        height: 5vh;
+        transform: translate(20%, -3px);
     }
 
     .contenedor-preguntas {
@@ -962,6 +931,85 @@ hr {
     }
 
 }
+
+@media (min-width: 1024px) and (max-width: 1367px) {
+
+    /* CSS */
+    .container-ruleta {
+        outline: 32px double red;
+    }
+
+
+    .ruleta {
+        width: 53rem;
+        height: 29rem;
+    }
+
+    .indicador {
+        width: 12vw;
+        height: 11vw;
+        position: absolute;
+        top: 39%;
+        left: 168px;
+    }
+
+    .baseRuleta {
+        width: 15vw;
+        height: 17vw;
+        position: absolute;
+        top: 89%;
+        left: 324px;
+        z-index: -9999
+    }
+
+    .opcion-correcto::before {
+        content: '';
+        background: url('@/assets/img/check_awert.png') no-repeat;
+        background-size: contain;
+        position: fixed;
+        width: 3vw;
+        height: 3vh;
+        transform: translate(20%, -3px);
+    }
+
+    .opcion-incorrecto::before {
+        content: '';
+        background: url('@/assets/img/check_wrong.png') no-repeat;
+        background-size: contain;
+        position: fixed;
+        width: 3vw;
+        height: 3vh;
+        transform: translate(20%, -3px);
+    }
+
+
+}
+
+
+
+@media (min-width: 1368px) and (orientation: landscape) {
+
+
+      .opcion-correcto::before {
+        content: '';
+        background: url('@/assets/img/check_awert.png') no-repeat;
+        background-size: contain;
+        position: fixed;
+        width: 3vw;
+        height: 3vh;
+        transform: translate(23vh, -3px);
+    }
+
+    .opcion-incorrecto::before {
+        content: '';
+        background: url('@/assets/img/check_wrong.png') no-repeat;
+        background-size: contain;
+        position: fixed;
+        width: 3vw;
+        height: 3vh;
+        transform: translate(23vh, -3px);
+    }
+    }
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)

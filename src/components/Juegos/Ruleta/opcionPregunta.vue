@@ -84,4 +84,26 @@ const secuencia = defineProps({
     font-size: 1.3em;
     font-family: Source Sans Pro
 }
+
+@media screen and (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
+.opcion-border-rigth{
+    /* background: var(--info-mensaje); */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-right: 3px;
+    color: var(--azul-axa);
+    font-size: 300%;
+}
+
+.texto-opcion {
+    pointer-events: none;
+    text-align: left;
+    color: black;
+    font-size: 70%;
+    font-family: Source Sans Pro
+}
+}
+
 </style>

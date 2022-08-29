@@ -340,6 +340,9 @@ h2 {
 
 .item-image img {
     object-fit: scale-down;
+    margin: 0px auto;
+    margin-bottom: 14%;
+    width: 78%;
 }
 
 /* Iconos indicador */

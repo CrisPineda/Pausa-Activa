@@ -964,6 +964,13 @@ h3 {
     filter: grayscale(0)
 }
 
+@media (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
+.imagen-random-img img[data-v-685cf719] {
+    width: auto;
+    height: 9rem;
+    padding: 14px;
+}
+}
 
 @media (min-width: 801px) and (max-width: 1023px) and (orientation: landscape) {
     .imagen-random-img img {

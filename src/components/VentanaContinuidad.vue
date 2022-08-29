@@ -12,7 +12,7 @@
                 </div>
                 <div class="title"> ¿Desea continuar con el avance guardado?</div>
                 <div>
-                    <div class="flex-center-elements-row gap-3">
+                    <div class="flex-center-elements-row gap-3A">
                         <div class="btn-primary2" @click="openFullscreen('si')"> SI </div>
                         <div class="btn-primary2" @click="openFullscreen('no')"> NO </div>
                     </div>

@@ -84,6 +84,12 @@
     grid-gap:32px ;
 }
 
+.gap-3A{
+    grid-gap:5px ;
+}
+
+
+
 .gap-4{
     grid-gap:42px ;
 }
@@ -148,6 +154,7 @@ input[type=text]{
     .gap-3{
         grid-gap:0px ;
     }
+
     
     .gap-4{
         grid-gap:26px ;

@@ -1093,6 +1093,7 @@ h3 {
     color: black;
     font-weight: bold;
     margin-bottom: 12px;
+    margin-top: 20%;
 }
 
 

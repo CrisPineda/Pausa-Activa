@@ -913,6 +913,7 @@ h3 {
     color: black;
     font-weight: bold;
     margin-bottom: 2px;
+    margin-top: 20%;
 }
 
 

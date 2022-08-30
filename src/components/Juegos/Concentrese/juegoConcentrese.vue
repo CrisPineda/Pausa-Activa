@@ -940,7 +940,7 @@ h3 {
     color: black;
     font-weight: bold;
     margin-bottom: 0px;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 

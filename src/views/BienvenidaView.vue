@@ -231,7 +231,7 @@ const slidersBienvenida = ref([]);
     height: 20%; 
 }
 
-@media  (min-width:360px) and (max-width: 800px) and (orientation: landscape) {
+@media  (min-width:360px) and (max-width: 899px) and (orientation: landscape) {
 
    .tituloP{
    margin-top: 10%;
@@ -267,7 +267,7 @@ const slidersBienvenida = ref([]);
 
 }
 
-@media (min-width: 801px) and (max-width: 1023px) and (orientation: landscape) {
+@media (min-width: 900px) and (max-width: 1023px) and (orientation: landscape) {
   
   .tituloP{
    margin-top: 10%;

@@ -163,7 +163,7 @@ p {
   }
 }
 /* Responsive 1 */
-@media (min-width: 360px) and (max-width:800px) and (orientation: landscape) {
+@media (min-width: 360px) and (max-width:899px) and (orientation: landscape) {
 
    .responsive-instrucciones {
     width: 60vh;
@@ -195,7 +195,7 @@ p {
 
 }
 
-@media (min-width: 801px) and (max-width: 1023px) and (orientation: landscape) {
+@media (min-width: 900px) and (max-width: 1023px) and (orientation: landscape) {
 
   .responsive-instrucciones {
     width: 70vh;

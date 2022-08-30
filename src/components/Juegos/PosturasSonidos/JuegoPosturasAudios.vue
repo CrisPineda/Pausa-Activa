@@ -31,7 +31,7 @@
             </div>
             <div class="btn-jugar auto flex-center-elements-row gap-2" style="text-align:center"
                 @click="ocultarVentanaInstrucciones">
-                <div class="btn-primary"> CONTINUAR</div>
+                <div class="btn-primary2"> CONTINUAR</div>
             </div>
 
         </template>
@@ -104,7 +104,7 @@
 
                 </div>
                 <div v-if="!continuar" class="auto flex-center-elements-row gap-2" style="text-align:center">
-                    <div class="btn-primary" @click="continuarAtividad">CONTINUAR</div>
+                    <div class="btn-primary2" @click="continuarAtividad">CONTINUAR</div>
                     <!-- <button class="btn-ghost-white" @click="volverEscena">VOLVER A EJERCICIOS</button> -->
                 </div>
 
@@ -560,7 +560,7 @@ const styleParlantes = reactive({
     placeContent: "center",
     textAlign: "center",
     flexWrap: "wrap",
-    height: "65vh"
+    height: "57vh"
 });
 
 
@@ -1135,8 +1135,35 @@ h3 {
 .inhabilitar-boton-listo {
     pointer-events: all;
     filter: grayscale(0)
+
 }
 
+
+@media (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
+
+    .titulo {
+    width: 80%;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 100%;
+    color: black;
+    font-weight: normal;
+    margin-top: 7%;
+}
+
+.conetenedor-imagen-opcion {
+    box-shadow: -1px -1px 16px inset black;
+    border-radius: 12px;
+    border: 1px solid var(--azul-axa);
+    margin: 1px;
+    width: auto;
+    height: 7ch;
+    cursor: pointer
+}
+
+
+
+}
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .opcion-correcto::before {

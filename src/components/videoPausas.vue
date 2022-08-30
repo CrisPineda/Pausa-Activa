@@ -158,4 +158,14 @@ video{
     text-align: center;
     justify-content: center;
 }
+
+@media (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
+
+    video{
+    width: 105%;
+    height: 30vh;
+    border: 1px solid blue;
+}
+}
+
 </style>

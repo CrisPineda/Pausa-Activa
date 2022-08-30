@@ -291,6 +291,23 @@ hr {
     font-family: Source Sans Pro;
 }
 
+@media (min-width: 360px)  and (max-width: 800px) and (orientation: landscape){
+    .contenedor-central-menu{
+    width: 80vw;
+    height: 345px;
+    max-height: 504px;
+    background-color: #fff;
+    border-radius: 4%;
+    overflow: hidden;
+    border: 1px solid var(--azul-axa);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    
+}
+
 @media (max-height: 1080px)  and (min-width: 1024px) and (orientation: landscape){
 
     .botonsalida{

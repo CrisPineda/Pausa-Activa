@@ -135,7 +135,7 @@ const pauseVideoPausa = () => {
 }
 
 video{
-    width: 105%;
+    width: 43vh;
     height: 41vh;
     border: 1px solid blue;
 }

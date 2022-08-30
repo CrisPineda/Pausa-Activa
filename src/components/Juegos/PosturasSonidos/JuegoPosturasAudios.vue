@@ -1062,7 +1062,7 @@ h3 {
     position: fixed;
     width: 3vw;
     height: 3vh;
-    transform: translate(200px, 11px);
+    transform: translate(10%, 11px);
 }
 
 .opcion-incorrecto::before {
@@ -1072,7 +1072,7 @@ h3 {
     position: fixed;
     width: 3vw;
     height: 3vh;
-    transform: translate(200px, 11px);
+    transform: translate(10%, 11px);
 }
 
 

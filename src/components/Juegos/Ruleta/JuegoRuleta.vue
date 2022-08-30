@@ -889,8 +889,8 @@ hr {
 
     .indicador {
         position: absolute;
-        top: 29%;
-        left: 14px;
+        top: 40%;
+        left: 4px;
     }
 
 

@@ -11,7 +11,7 @@ export const instruccionesBienvenida = [
 
     '5.	Por último, al finalizar el recorrido del escenario se presentará un balance con los resultados de los beneficios obtenidos por la correcta realizaión de las pausas activas. <br>' +
 
-    'Los resultados se presentarán de la siguiente m`anera: <br>' +
+    'Los resultados se presentarán de la siguiente mánera: <br>' +
     'Barra roja: medición de la salud. <br>' +
     'Barra azul: medición del estrés. <br>' +
     'Barra verde: medición de energía. <br>' +
@@ -43,9 +43,9 @@ export const instruccionesJuegoPosturas = [
 ]
 
 export const instruccionesJuegoPosturaAudios = [
-    `Memorice y escuche el sonido de cada una de las pausas activas que se presentan en la primera pantalla dando clic sobre el megáfono.<br> <br>
-    Al continuar, escuche el sonido de la pausa activa que se le esté preguntando en la segunda pantalla, dando nuevamente clic sobre el megáfono y seleccione la opción que considere correcta.<br><br> 
-    Una vez responda correctamente, deberá realizar la pausa activa. Recuerde leer atentamente las instrucciones de cada una antes de continuar.`,
+    `1. Escuche y memorice el sonido de cada una de las pausas activas que se presentan en la primera pantalla dando clic sobre el ícono de audio.<br><br>
+     2. Escuche el sonido de la pausa activa que se le esté preguntando en la segunda pantalla, dando nuevamente clic sobre el ícono de audio y seleccione la opción que se relaciona con ese sonido. <br><br>
+     3. Realice la pausa activa propuesta. Recuerde leer atentamente las instrucciones de cada una antes de continuar. `,
 ]
 
 export const instruccionesJuegoRuleta = [

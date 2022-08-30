@@ -61,7 +61,7 @@
             </template>
             <template #botones>
                 <!-- <button class="btn-primary-vr1" @mousemove="confity" @click="continuarTrivia">CONTINUAR TRIVIA!</button> -->
-                <div class="btn-primary" @mousemove="confity" @click="volverEscena">VOLVER AL
+                <div class="btn-primary2" @mousemove="confity" @click="volverEscena">VOLVER AL
                     ESCENARIO</div>
                 <!--  <button class="btn-primary-vr1" @mousemove="confity" id="salir">SALIR</button> -->
             </template>
@@ -78,8 +78,8 @@
             </div>
             <div v-if="!continuar" class="titulo">
 
-                <div>Memorice y escuche el sonido de cada una de las pausas activas que se presentan, dando clic sobre
-                    el megáfono. Cuando esté listo debe dar clic sobre continuar.</div>
+                <div>1. Escuche y memorice el sonido de cada una de las pausas activas que se presentan a continuación, dando clic sobre el ícono de audio. <br>
+                     Cuando esté listo debe dar clic sobre el botón de continuar.</div>
             </div>
             <div v-if="!continuar" class="contenedor-opciones flex-center-elements-column gap-1">
                 <div :style="styleParlantes">
@@ -113,7 +113,7 @@
             <div v-if="continuar" class="flex-center-elements-row gap-1">
                 <div class="titulo auto">
                     <div v-if="!mostrarCamaraCalentamiento">
-                        <div>Escuche el audio dando clic sobre el megáfono, este sonido ¿a cuál pausa activa pertenece?
+                        <div>2. Escuche el sonido dando clic sobre el ícono de audio y seleccione la pausa activa a la que se relaciona.
                         </div>
                     </div>
                     <div v-else>

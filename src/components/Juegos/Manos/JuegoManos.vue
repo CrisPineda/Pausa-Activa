@@ -552,7 +552,7 @@ h3 {
     font-size: 1.5em;
     color: black;
     font-weight: bold;
-    margin-bottom: 0px
+    margin-bottom: 0px;
 }
 
 

@@ -63,7 +63,7 @@
             </template>
             <template #botones>
                 <!-- <button class="btn-primary-vr1" @mousemove="confity" @click="continuarTrivia">CONTINUAR TRIVIA!</button> -->
-                <div class="btn-primary" @mousemove="confity" @click="volverEscenario">VOLVER AL
+                <div class="btn-primary2" @mousemove="confity" @click="volverEscenario">VOLVER AL
                     ESCENARIO</div>
                 <!--  <button class="btn-primary-vr1" @mousemove="confity" id="salir">SALIR</button> -->
             </template>
@@ -977,6 +977,19 @@ h3 {
         width: auto;
         height: 14rem;
     }
+
+    .contenedor-ejercicio-realizado {
+    width: 100%;
+    height: 33vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 }
 
 @media (min-width: 1024px) and (max-width: 1367px) and (orientation: landscape) {

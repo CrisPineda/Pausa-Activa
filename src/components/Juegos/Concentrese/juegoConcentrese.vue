@@ -31,7 +31,7 @@
         </template>
         <template #botones>
             <!-- <button class="btn-primary-vr1" @mousemove="confity" @click="continuarTrivia">CONTINUAR TRIVIA!</button> -->
-            <div class="btn-primary" @mousemove="confity" @click="volverEscenario">VOLVER AL
+            <div class="btn-primary2" @mousemove="confity" @click="volverEscenario">VOLVER AL
                 ESCENARIO</div>
             <!--  <button class="btn-primary-vr1" @mousemove="confity" id="salir">SALIR</button> -->
         </template>
@@ -122,7 +122,7 @@
 
                 </div>
                 <div v-if="activarBotonContinuar" class="auto flex-center-elements-row">
-                    <div class="btn-primary" @mousemove="confity" @click="volverEscenario">VOLVER AL
+                    <div class="btn-primary2" @mousemove="confity" @click="volverEscenario">VOLVER AL
                         ESCENARIO</div>
                 </div>
             </div>
@@ -155,7 +155,7 @@
                 </div>
                 <div class="btn-jugar auto flex-center-elements-row gap-2" style="text-align:center"
                     @click="ocultarVentanaInstrucciones">
-                    <div class="btn-primary"> CONTINUAR</div>
+                    <div class="btn-primary2"> CONTINUAR</div>
                 </div>
 
             </template>
@@ -335,7 +335,7 @@ const styleContenedorEjercicioRealizado = reactive({
     objectFit: "scale-down",
     placeContent: "center",
     placeItems: "center",
-    width: "70%"
+    width: "-1%"
 })
 
 
@@ -939,7 +939,8 @@ h3 {
     font-size: 1.5em;
     color: black;
     font-weight: bold;
-    margin-bottom: 0px
+    margin-bottom: 0px;
+    margin-top: 10%;
 }
 
 
@@ -1027,6 +1028,7 @@ h3 {
         object-fit: scale-down;
     }
 
+
     .opcion-correcto::before {
         content: '';
         background: url('@/assets/img/check_awert.png') no-repeat;
@@ -1051,7 +1053,7 @@ h3 {
 
     .size-imagen-pausas {
         width: 80%;
-        height: auto
+        height: 34%;
     }
 }
 </style>

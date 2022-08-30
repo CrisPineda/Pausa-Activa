@@ -37,7 +37,7 @@
 
         <!-- -->
 
-        <div class="contenedor-mensaje center-element flex-center-elements-column gap-3">
+        <div class="contenedor-mensaje center-element flex-center-elements-column gap-3Manos">
             <!--  -->
             <Cronometro v-if="mostrarcronometro" :isRun="habilitarCronometro" :segundos="15"
                 @endTime="activarNavegacionSliders" />
@@ -75,7 +75,7 @@
 
                 <div class="contenedor-opciones-items ">
 
-                    <div class=" flex-center-elements-row gap-3">
+                    <div class=" flex-center-elements-row gap-3Manos">
                         <div v-if="mostrarTituloPausasActivas" class="titulo auto">
                             <div>¡Hora de realizar la pausa activa! Siga la secuencia con sus manos.
                             </div>
@@ -93,7 +93,7 @@
 
                         </div>
                     </div>
-                    <div class="auto  flex-center-elements-column gap-3" v-if="mostrarCamara">
+                    <div class="auto  flex-center-elements-column gap-3Manos" v-if="mostrarCamara">
                         <CaramaWeb :width="140" :height="140" @camaraLoad="finLoadCamara" />
                         <div v-if="!finTiempoCronometro" class="btn-primary2" @click="volverEscenario">VOLVER AL
                             ESCENARIO</div>
@@ -612,6 +612,15 @@ h3 {
 
 @media (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
 
+    .titulo {
+    font-family: Source Sans Pro;
+    font-size: var(--h2-title-size);
+    color: black;
+    font-weight: normal;
+    width: 64%;
+    text-align: center
+        /* margin-bottom: 4vh; */
+}
     .contenedor-mensaje {
     width: 74vw;
     height: 90%;
@@ -632,8 +641,7 @@ h3 {
 .contenedor-opciones {
     width: 74vw;
     height: 19rem;
-    margin-bottom: 11%;
-        /* margin-top: 4em;*/
+    margin-bottom: 0%;
 }
 
 .titulo-instruccion {

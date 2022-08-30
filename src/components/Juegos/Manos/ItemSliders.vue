@@ -128,7 +128,7 @@ const styleObjectPrev = reactive({
 
 
 const styleObjectContenedor = reactive({
-    width: "33vh",
+    width: "32vh",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -306,7 +306,6 @@ const navegacion = () => {
 .sliders-order img {
     width: 100%;
     height: 23vh;
-    /* box-shadow: -1px -1px 16px inset black; */
     border: 1px solid #00008F;
     margin: 0px auto;
     border-radius: 12px;
@@ -322,19 +321,12 @@ const navegacion = () => {
     border-radius: 12px
 }
 
-.correcto {}
 
-
-.incorrecto {
-    /* box-shadow: -1px -1px 16px inset var(--border-error-mensaje);
-    border-radius: 12px */
-}
 
 .contenedor-items {
     margin: 0px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /*  grid-gap: 12px 20px; */
 }
 
 
@@ -358,8 +350,7 @@ const navegacion = () => {
 
 .sliders-order img {
     width: 100%;
-    height: 15vh;
-    /* box-shadow: -1px -1px 16px inset black; */
+    height: 17vh;
     border: 1px solid #00008F;
     margin: 0px auto;
     border-radius: 12px;
@@ -368,12 +359,17 @@ const navegacion = () => {
 
     .contenedor-principal-sliders {
     height: 100%;
-    max-height: 55vh;
+    max-height: 49vh;
+    width: 100%;
+}
+
+.contenedor-principal-sliders2 {
+    height: 20vh;
     width: 100%;
 }
 
 .slider-style-dinamic {
-    height: 130vw;
+    height: 464%;
     overflow: hidden;
     display: flex;
     justify-content: center;

@@ -215,7 +215,7 @@ hr {
 .config-opciones {
     height: 82vh;
     text-align: center;
-    font-size: 92%;
+    font-size: 83%;
     font-family: Source Sans Pro;
 }
 
@@ -235,10 +235,11 @@ hr {
         height: 90vh;
     }
 
+
     .config-opciones{
     height: 87vh;
     text-align: center;
-    font-size: 85%;
+    font-size: 75%;
     font-family: Source Sans Pro;
 }
 

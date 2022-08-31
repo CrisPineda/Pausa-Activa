@@ -140,7 +140,7 @@
             @eventOcultarInstrucciones="isInstruccionesPausaVisible = !isInstruccionesPausaVisible">
             <template #texto-instrucciones>
                 <div>
-                    <img src="@/assets/img/mensaje.png" width="500" height="69"  alt="">
+                    <img id="tam" src="@/assets/img/mensaje.png"   alt="">
                 </div>
                 <div class="contenedor-ejercicio-pausas  gap-1">
 
@@ -154,7 +154,7 @@
 
                     </div>
                     <div
-                        :style="{ border: `1.35px solid black`, background: `transparent url(${ImagenManoCompleta}) no-repeat center center`, width: '320px', height: '92%', backgroundSize: '100% 100%', width: '49vh' }">
+                        :style="{ border: `1.35px solid black`, background: `transparent url(${ImagenManoCompleta}) no-repeat center center`, width: '320px', height: '65%', backgroundSize: '100% 100%', width: '49vh' }">
                         <!-- <img :id="mostrarImagen" :src="mostrarImagen" alt="" width="320" height="320"> -->
                     </div>
 
@@ -488,6 +488,9 @@ h3 {
     font-weight: normal;
 }
 
+#tam {
+    width: 100%;
+}
 /* .contenedor-actividad {
     display: flex;
     flex-direction: column;

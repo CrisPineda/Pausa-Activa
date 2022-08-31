@@ -205,6 +205,7 @@ import ChetList from '@/assets/img/chek-list.png';
 import ImagenBanano from '@/assets/img/banano.png';
 import ImagenFresa from '@/assets/img/fresa.png';
 import ImagenUvas from '@/assets/img/uvas.png';
+import Buho from '@/assets/img/ani4.png';
 import ImagenNaranja from '@/assets/img/naranja.png';
 import ImagenLampara from '@/assets/img/ani1.png';
 import ImagenComputador from '@/assets/img/ani2.png';

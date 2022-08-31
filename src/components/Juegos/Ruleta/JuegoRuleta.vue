@@ -249,7 +249,6 @@ onMounted(() => {
     }, 4500); */
     document.body.focus()
     loading.value = false
-    sonidoPlayRuleta()
 
 })
 

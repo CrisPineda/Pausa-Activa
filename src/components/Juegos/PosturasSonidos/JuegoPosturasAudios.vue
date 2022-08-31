@@ -860,7 +860,7 @@ const OcultarBotonComenzar = () => {
 <style lang="css" scoped>
 h2 {
     font-family: Source Sans Pro;
-    font-size: 1em;
+    font-size: 80%;
     color: black;
     font-weight: 500;
     text-align: center
@@ -868,7 +868,7 @@ h2 {
 
 h3 {
     font-family: Source Sans Pro;
-    font-size: 1em;
+    font-size: 80%;
     color: black;
     font-weight: normal;
     text-align: center
@@ -876,7 +876,7 @@ h3 {
 
 
 .titulo {
-    width: 80%;
+    width: 74%;
     text-align: center;
     font-family: Source Sans Pro;
     font-size: var(--h2-title-size);

@@ -168,7 +168,7 @@
             @eventOcultarInstrucciones="isInstruccionesPausaVisible = !isInstruccionesPausaVisible">
             <template #texto-instrucciones>
                 <div>
-                    <img src="@/assets/img/mensaje.png" width="580" alt="">
+                    <img id="tam" src="@/assets/img/mensaje.png" alt="">
                 </div>
                 <div class="contenedor-ejercicio-pausas  gap-1">
 
@@ -874,19 +874,21 @@ h1 {
 
 h2 {
     font-family: Source Sans Pro;
-    font-size: 1em;
+    font-size: 80%;
     color: black;
     font-weight: 500;
 }
 
 h3 {
     font-family: Source Sans Pro;
-    font-size: 1em;
+    font-size: 75%;
     color: black;
     font-weight: normal;
 }
 
-
+#tam {
+    width: 100%;
+}
 
 .contenedor-camara-pausa {
     height: 100%

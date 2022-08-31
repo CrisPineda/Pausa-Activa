@@ -21,8 +21,8 @@
                     <div>
                         <div class="titulo">Balance de {{ usuario.nombreUsuario.toUpperCase() }}</div>
                     </div>
-                    <div class="flex-center-elements-column gap-4">
-                        <div class="contenedor-iconos  gap-2">
+                    <div class="flex-center-elements-column gap-4P">
+                        <div class="contenedor-iconos  gap-2B">
                             <div class="icono-salud">
 
                             </div>
@@ -270,6 +270,7 @@ const reiniciar = () => {
 .barra-salud {
     width: 100%;
     height: 4vh;
+    margin-left: 7%;
     background-color: #df97ab;
     border-radius: 15px;
     /*  background: transparent url(@/assets/img/barraSalud.png) repeat-x center;
@@ -280,6 +281,7 @@ const reiniciar = () => {
 .barra-estres {
     width: 100%;
     height: 4vh;
+    margin-left: 7%;
     background-color: #3bbbcd;
     border-radius: 15px;
     /*  background: transparent url(@/assets/img/barraEstres.png) repeat-x center;
@@ -311,7 +313,8 @@ const reiniciar = () => {
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    width: 46vh;
+    width: 44vh;
+    margin-left: 19%;
     height: 50vh;
 }
 
@@ -322,5 +325,52 @@ const reiniciar = () => {
     position: absolute;
     top: 20%;
     left: -24%;
+}
+
+
+@media (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
+
+
+    #salud,
+#estres,
+#energia {
+    width: 35vw;
+    border-radius: 23px;
+    padding: 2vh;
+    background-color: #355F9E;
+    color: #8fadd8;
+    font-family: Source Sans Pro;
+    font-size: 1em
+}
+
+    .icono-salud {
+
+    width: 35%;
+    height: 15%;
+    background: transparent url(@/assets/img/IconoSalud.png) no-repeat center;
+    background-size: contain;
+    margin-left: 40%;
+
+}
+
+
+.icono-estres {
+
+    width: 35%;
+    height: 15%;
+    background: transparent url(@/assets/img/IconoEstres.png) no-repeat center;
+    background-size: contain;
+    margin-left: 40%
+}
+
+.icono-energia {
+
+    width: 35%;
+    height: 15%;
+    background: transparent url(@/assets/img/IconoEnergia.png) no-repeat center;
+    background-size: contain;
+    margin-left: 40%;
+
+}
 }
 </style>

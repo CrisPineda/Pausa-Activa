@@ -171,7 +171,7 @@
                 </div>
                 <div v-if="ocultarBotonComenzarActividad"
                     :class="{ 'habilitar-boton-listo': ocultarBotonComenzarActividad }"
-                    class="auto  inhabilitar-boton-listo flex-center-elements-row gap-2" style="text-align:center"
+                    class="auto  inhabilitar-boton-listo flex-center-elements-row gap-2A" style="text-align:center"
                     @click="OcultarBotonComenzar">
                     <div class="button-bs"> COMENZAR</div>
                 </div>
@@ -802,25 +802,25 @@ const OcultarBotonComenzar = () => {
 </script>
 
 <style lang="css" scoped>
+    
 h2 {
     font-family: Source Sans Pro;
-    font-size: 1em;
+    font-size: 80%;
     color: black;
     font-weight: 500;
-    text-align: center
 }
 
 h3 {
     font-family: Source Sans Pro;
-    font-size: 1em;
+    font-size: 75%;
     color: black;
     font-weight: normal;
-    text-align: center
 }
+
 
 .contenedor-ejercicio-realizado {
     width: 100%;
-    height: 44vh;
+    height: 20vh;
     text-align: center;
     display: flex;
     align-items: center;

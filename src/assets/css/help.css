@@ -79,6 +79,14 @@
     grid-gap:22px ;
 }
 
+.gap-2A{
+    grid-gap:0px ;
+}
+
+.gap-2B {
+    grid-gap: 19px;
+}
+
 
 .gap-3{
     grid-gap:32px ;
@@ -89,7 +97,7 @@
 }
 
 .gap-3A{
-    grid-gap:5px ;
+    grid-gap:3px ;
 }
 
 
@@ -98,6 +106,9 @@
     grid-gap:42px ;
 }
 
+.gap-4P{
+    grid-gap:6px ;
+}
 
 .btn-disable{
     filter:grayscale(1)
@@ -136,14 +147,16 @@ input[type=text]{
 @media screen and (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
 
       .gap-2{
-        grid-gap: 22px ;
+        grid-gap: 12px ;
     }
 
     .gap-3Manos{
         grid-gap: 1px ;
     }
     
-
+    .gap-3{
+        grid-gap:1px ;
+    }
 }
 
 
@@ -160,7 +173,7 @@ input[type=text]{
     
     
     .gap-3{
-        grid-gap:0px ;
+        grid-gap:5px ;
     }
 
     .gap-3Manos{

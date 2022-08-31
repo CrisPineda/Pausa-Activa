@@ -29,10 +29,11 @@ import ImagenNaranja from '@/assets/img/naranja.png';
 import ImagenAni1 from '@/assets/img/ani1.png';
 import ImagenAni2 from '@/assets/img/ani2.png';
 import ImagenAni3 from '@/assets/img/ani3.png';
+import ImagenAni4 from '@/assets/img/ani4.png';
 import ImagenCalculadora from '@/assets/img/ani3.png';
 import ImagenPc from '@/assets/img/ani1.png';
 import ImagenLibro from '@/assets/img/ani2.png';
-const temas = ref(["animal", "oficina", "fruta"]);
+const temas = ref(["oficina", "fruta"]);
 const tema = ref("")
 const temaSeleccionado = ref("")
 const giros = ref();
@@ -42,11 +43,8 @@ const emit = defineEmits(['finSeleccionTemas'])
 
 const imagenes = ref([
     { imagen: ImagenBanano, tipo: "fruta" },
-    { imagen: ImagenAni1, tipo: "animal" },
     { imagen: ImagenFresa, tipo: "fruta" },
-    { imagen: ImagenAni2, tipo: "animal" },
     { imagen: ImagenNaranja, tipo: "fruta" },
-    { imagen: ImagenAni3, tipo: "animal" },
     { imagen: ImagenLibro, tipo: "oficina" },
     { imagen: ImagenCalculadora, tipo: "oficina" },
     { imagen: ImagenPc, tipo: "oficina" }

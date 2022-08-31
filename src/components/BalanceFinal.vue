@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="auto">
-                    <div class="btn-primary" @click="reiniciar">CONTINUAR</div>
+                    <div class="btn-primary2" @click="reiniciar">CONTINUAR</div>
                 </div>
             </div>
         </div>
@@ -160,14 +160,14 @@ const reiniciar = () => {
 </script>
 
 <style lang="css" scoped>
-.contenedor-items-ventana-final {
+.contenedor-items-ventana-final{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
     place-items: center;
-    width: 42vw;
-    height: 546px;
+    width: 50%;
+    height: 70%;
     max-height: 610px;
     grid-gap: 24px;
     background-color: white;
@@ -178,7 +178,7 @@ const reiniciar = () => {
 #salud,
 #estres,
 #energia {
-    width: 28vw;
+    width: 26vw;
     border-radius: 23px;
     padding: 12px;
     background-color: #355F9E;
@@ -239,26 +239,27 @@ const reiniciar = () => {
 
 .icono-salud {
 
-    width: 13vh;
-    height: 10vh;
+    width: 15%;
+    height: 15%;
     background: transparent url(@/assets/img/IconoSalud.png) no-repeat center;
     background-size: contain;
-    margin-left: 8%
+    margin-left: 20%;
+
 }
 
 .icono-estres {
 
-    width: 13vh;
-    height: 10vh;
+    width: 15%;
+    height: 15%;
     background: transparent url(@/assets/img/IconoEstres.png) no-repeat center;
     background-size: contain;
-    margin-left: 8%
+    margin-left: 10%
 }
 
 .icono-energia {
 
-    width: 13vh;
-    height: 10vh;
+    width: 15%;
+    height: 15%;
     background: transparent url(@/assets/img/IconoEnergia.png) no-repeat center;
     background-size: contain;
     margin-left: 10%;
@@ -310,15 +311,16 @@ const reiniciar = () => {
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    width: 57vh;
+    width: 46vh;
+    height: 50vh;
 }
 
 /*Barras de habilidad */
 
-.responsive-personaje {
-    width: 40%;
+.responsive-personaje{
+    width: 28vh;
     position: absolute;
-    top: 0pc;
+    top: 20%;
     left: -24%;
 }
 </style>

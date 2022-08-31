@@ -135,10 +135,11 @@ const pauseVideoPausa = () => {
 }
 
 video{
-    width: 43vh;
-    height: 41vh;
+    width: 28vh;
+    height: 29vh;
     border: 1px solid blue;
 }
+
 
 .mensaje-cambio {
     font-family: Source Sans Pro;
@@ -162,10 +163,11 @@ video{
 @media (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
 
     video{
-    width: 105%;
-    height: 30vh;
+    width: 28vh;
+    height: 25vh;
     border: 1px solid blue;
 }
+
 }
 
 </style>

@@ -93,8 +93,13 @@
     /* SourceSansPro */
 
     @font-face {
-        font-family: 'Source Sans Pro';
-        src: url('@/assets/fonts/SourceSansPro-Regular.ttf');
+        font-family: 'sans-serif';
+        src: url('@/assets/fonts/axa.woff2') format('woff2');
+    }
+
+    @font-face {
+        font-family: 'PublicoBanner';
+        src: url('@/assets/fonts/Publico-Banner-Bold');
     }
 
     @font-face {
@@ -157,35 +162,35 @@ p {
     font-size: 18px;
     line-height: 24px;
     height: 50%;
-    font-family: Source Sans pro;
+    font-family: sans-serif;
     text-align: justify;
     color:white
 }
 
 h1 {
     height: 20%;
-    font-family: Source Sans Pro;
+    font-family: sans-serif ;
     font-size: var(--h1-title-size);
     line-height: var(--h1-title-height);
 
 }
 
 h2 {
-    font-family: Source Sans Pro;
+    font-family: sans-serif;
     font-size: var(--h2-title-size);
     color: white;
     font-weight: normal;
 }
 
 h3 {
-    font-family: Source Sans Pro;
+    font-family: sans-serif;
     font-size: 1.3em;
     color: white
 }
 
 
 h4 {
-    font-family: Source Sans Pro;
+    font-family: sans-serif;
     font-size: 1em;
     color: red;
     font-weight: 400;
@@ -194,11 +199,11 @@ h4 {
 /* css textos pausas */
 .texto-descripcion-pausas {
     text-align: justify;
-    font-family: Source Sans Pro;
+    font-family: sans-serif;
     font-size: 1.06em;
     color: black;
     font-weight: normal;
-    padding: 19px;
+    padding: 30px;
     height: 22vw;
     display: flex;
     align-items: baseline;
@@ -209,7 +214,7 @@ h4 {
 
 .texto-descripcion-pausas2 {
     text-align: justify;
-    font-family: Source Sans Pro;
+    font-family: sans-serif;
     font-size: 1.06em;
     color: black;
     font-weight: normal;
@@ -224,7 +229,7 @@ h4 {
 
 
 .texto-bienvenida {
-    font-family: Source Sans Pro;
+    font-family: sans-serif;
     font-size: var(--h1-title-size);
     line-height: var(--h1-title-height);
     margin: 2px;
@@ -234,7 +239,7 @@ h4 {
 
 .titulos-ventanas-intro {
     width: 100%;
-    font-family: Source Sans Pro;
+    font-family: Source Sans Sans;
     font-size: 1.8em;
     font-weight: bold;
     margin: 2px;
@@ -306,7 +311,7 @@ h4 {
 } */
 
 .subtitulo {
-    font-family: Source Sans Pro;
+    font-family: sans-serif;
     font-size: var(--h2-title-size);
     color: black;
     font-weight: normal;
@@ -360,7 +365,7 @@ h4 {
 .btn-primary-vr1,
 .btn-ghost-white,
 .button-bs {
-    font-family: Source Sans Pro;
+    font-family: sans-serif;
 }
 
 .btn-primary {
@@ -459,7 +464,7 @@ h4 {
     cursor: pointer;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    font: normal 600 14px/14px "Source Sans Pro", Arial, sans-serif;
+    font: normal 600 14px/14px "sans-serif", Arial, sans-serif;
     -ms-flex-align: center;
     -ms-flex-pack: center;
     min-height: 40px;
@@ -995,7 +1000,7 @@ h4 {
     left: 54px;
     top: 2px;
     z-index: 1;
-    font-family: Source Sans Pro;
+    font-family: sans-serif;
     font-size:0.9em
 }
 
@@ -1085,7 +1090,7 @@ h4 {
     p {
       font-size: 1.1em;
       line-height: 15px;
-      font-family: Source Sans pro;
+      font-family: sans-serif;
       text-align: justify;
       padding:0px;
 
@@ -1120,7 +1125,7 @@ h4 {
 
     .texto-descripcion-pausas {
     text-align: justify;
-    font-family: Source Sans Pro;
+    font-family: sans-serif;
     font-size: 1.em;
     color: black;
     font-weight: normal;
@@ -1164,7 +1169,7 @@ h4 {
     p {
         font-size: 1.2em;
         line-height: 13px;
-        font-family: Source Sans pro;
+        font-family: sans-serif;
         text-align: justify;
         padding: 4px;
         margin-top: -4%;
@@ -1259,7 +1264,7 @@ h4 {
   p {
       font-size: 1.3em;
       line-height: 18px;
-      font-family: Source Sans pro;
+      font-family: sans-serif;
       text-align: justify;
       padding:0px;
       margin-bottom: 23%;
@@ -1301,7 +1306,7 @@ h4 {
     text-align: center;
     font-size: 86%;
     font-size: 0.8em;
-    font-family: Source Sans Pro;
+    font-family: sans-serif;
 }
 
 
@@ -1338,7 +1343,7 @@ h4 {
 
 
   .texto-instrucciones {
-      height: 100% !important
+      height: 72% !important
   }
 
   .slider-instrucciones {   
@@ -1355,7 +1360,7 @@ h4 {
   p {
       font-size: 1.4em;
       line-height: 22px;
-      font-family: Source Sans pro;
+      font-family: sans-serif;
       text-align: justify;
       margin-bottom: 23%;
   }
@@ -1402,7 +1407,7 @@ h4 {
 
     h1 {
         height: 60%;
-        font-family: Source Sans Pro;
+        font-family: sans-serif;
         font-size: var(--h1-title-size);
         line-height: var(--h1-title-height);
       
@@ -1439,7 +1444,7 @@ h4 {
         p {
             font-size: 1.4em;
             line-height: 110%;
-            font-family: Source Sans pro;
+            font-family: sans-serif;
             text-align: justify;
             padding:0px;
             margin-bottom: 27%;

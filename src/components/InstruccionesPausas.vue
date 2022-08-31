@@ -235,12 +235,13 @@ hr {
         height: 90vh;
     }
 
-.config-opciones{
-    height: 86vh;
+    .config-opciones{
+    height: 87vh;
     text-align: center;
-    font-size: 88%;
+    font-size: 85%;
     font-family: Source Sans Pro;
 }
+
     .botones-menu {
         display: grid;
         justify-content: center;

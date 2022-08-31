@@ -194,7 +194,7 @@ const slidersBienvenida = ref([]);
   align-self: self-start;
   font-weight: bold;
   color: white;
-  font-family: Source Sans Pro;
+  font-family: PublicoBanner;
   font-size: 5em;
 
 }
@@ -211,7 +211,7 @@ const slidersBienvenida = ref([]);
   left: 18%;
   top: -18%;
   transform: translate(-50%, -50%);
-  font-family: Source Sans Pro;
+  font-family: PublicoBanner;
   font-size: 2em;
 
 }
@@ -238,7 +238,7 @@ const slidersBienvenida = ref([]);
    align-self: self-start;
    font-weight: bold;
    color: white;
-   font-family: Source Sans Pro;
+   font-family: PublicoBanner;
    font-size: 4em;
 
   }
@@ -255,7 +255,7 @@ const slidersBienvenida = ref([]);
   left: 22%;
   top: -20%;
   transform: translate(-50%, -50%);
-  font-family: Source Sans Pro;
+  font-family: PublicoBanner;
   font-size: 2em;
 
 }
@@ -274,7 +274,7 @@ const slidersBienvenida = ref([]);
    align-self: self-start;
    font-weight: bold;
    color: white;
-   font-family: Source Sans Pro;
+   font-family: PublicoBanner;
    font-size: 4em;
 
   }
@@ -291,7 +291,7 @@ const slidersBienvenida = ref([]);
   left: 22%;
   top: -16%;
   transform: translate(-50%, -50%);
-  font-family: Source Sans Pro;
+  font-family: PublicoBanner;
   font-size: 2em;
 
 }
@@ -311,7 +311,7 @@ const slidersBienvenida = ref([]);
    align-self: self-start;
    font-weight: bold;
    color: white;
-   font-family: Source Sans Pro;
+   font-family: PublicoBanner;
    font-size: 4em;
 
   }
@@ -324,12 +324,12 @@ const slidersBienvenida = ref([]);
   font-weight: bold;
   color: white;
   width: 29vw;
-  height: 12%;
+  height: 14%;
   position: absolute;
   left: 22%;
   top: 1%;
   transform: translate(-50%, -200%);
-  font-family: Source Sans Pro;
+  font-family: sans-serif;
   font-size: 4em;
 
 }
@@ -350,7 +350,7 @@ const slidersBienvenida = ref([]);
    align-self: self-start;
    font-weight: bold;
    color: white;
-   font-family: Source Sans Pro;
+   font-family: PublicoBanner;
    font-size: 4em;
 
   }

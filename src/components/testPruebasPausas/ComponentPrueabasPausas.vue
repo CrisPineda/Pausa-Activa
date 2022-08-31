@@ -479,16 +479,14 @@ h3 {
 
 
 
-.contenedor-ejercicio-pausas {
+.contenedor-ejercicio-pausas{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 0fr;
     place-content: center;
     place-items: center;
-    width: 61vw;
+    width: 79vw;
     margin: 0px auto;
 }
-
-
 
 
 

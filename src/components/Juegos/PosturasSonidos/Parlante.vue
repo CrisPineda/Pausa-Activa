@@ -50,8 +50,8 @@ const emit = defineEmits(['finAudioAleatorio'])
 
 const styleParlante = reactive({
     backgroundColor: 'silver',
-    width: '20%',
-    height: '20%',
+    width: '11%',
+    height: '11%',
     backgroundImage: `url('${ImagenParlante}')`,
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center center',

@@ -190,10 +190,11 @@ video {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
     video {
-        width: 11rem !important;
-        object-fit: cover;
-    }
+    width: 50% !important;
+    object-fit: cover;
+}
 
     #contenedor-video {
         width: 70vh;

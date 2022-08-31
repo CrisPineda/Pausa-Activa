@@ -539,8 +539,8 @@ const generarSonidosAleatorios = () => {
 }
 
 const styleParlante = reactive({
-    width: '37px',
-    height: '33px',
+    width: '4%',
+    height: '4%',
     backgroundImage: `url('${ImagenParlante}')`,
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center center',
@@ -882,7 +882,6 @@ h3 {
     font-size: var(--h2-title-size);
     color: black;
     font-weight: normal;
-    margin-top: 7%;
 }
 
 
@@ -893,10 +892,10 @@ h3 {
     box-shadow: -1px -1px 16px inset black;
     border-radius: 12px;
     border: 1px solid var(--azul-axa);
-    margin: 8px;
+    margin: 0%;
     width: auto;
-    height: 25ch;
-    cursor: pointer
+    height: 100%;
+    cursor: pointer;
 }
 
 .conetenedor-imagen-opcion img:hover {
@@ -922,9 +921,8 @@ h3 {
 }
 
 .contenedor-ejercicio-imagen-camara {
-    height: 49vh !important
+    height: 41vh !important;
 }
-
 /* .camara {
     position: absolute;
     top: 4px;

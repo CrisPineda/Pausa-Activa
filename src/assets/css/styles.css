@@ -93,8 +93,8 @@
     /* SourceSansPro */
 
     @font-face {
-        font-family: 'sans-serif';
-        src: url('@/assets/fonts/axa.woff2') format('woff2');
+        font-family: 'Source Sans Pro';
+        src: url('@/assets/fonts/sans-serif');
     }
 
     @font-face {

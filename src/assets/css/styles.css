@@ -94,7 +94,7 @@
 
     @font-face {
         font-family: 'PublicoBanner';
-        src: url('@/assets/fonts/Publico-Banner-Bold');
+        src: url('@/assets/fonts/Publico-Banner-Bold.ttf');
     }
 
     @font-face {

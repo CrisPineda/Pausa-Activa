@@ -874,34 +874,27 @@ h3 {
     text-align: center
 }
 
-
-.titulo {
-    width: 74%;
+.titulo[data-v-17d42733] {
+    width: 100%;
     text-align: center;
     font-family: Source Sans Pro;
-    font-size: var(--h2-title-size);
+    font-size: 1.5vw;
     color: black;
     font-weight: normal;
+    margin-top: 2%;
 }
 
 
 
 
-
-.conetenedor-imagen-opcion {
+.conetenedor-imagen-opcion[data-v-17d42733] {
     box-shadow: -1px -1px 16px inset black;
     border-radius: 12px;
     border: 1px solid var(--azul-axa);
-    margin: 0%;
+    margin: 1px;
     width: auto;
-    height: 100%;
+    height: 15vw;
     cursor: pointer;
-}
-
-.conetenedor-imagen-opcion img:hover {
-
-    /*   box-shadow: -1px -1px 16px inset var(--azul-axa); */
-
 }
 
 .contenedor-opciones {
@@ -975,20 +968,17 @@ h3 {
     grid-gap: 15px;
     overflow: hidden
 }
-
-.contenedor-audio {
-    padding: 1px;
+.contenedor-audio{
     width: 20vw;
-    height: 33vh;
+    height: 29vh;
     grid-gap: 31px;
     overflow: hidden;
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
-    position: relative
+    position: relative;
 }
-
 
 
 .imagenes-opciones {
@@ -996,13 +986,11 @@ h3 {
     margin: 0px auto;
 }
 
-.imagenes-opciones img {
-
+.imagenes-opciones img[data-v-17d42733] {
     height: -webkit-fill-available;
     border-radius: 12px;
-    object-fit: scale-down;
-    padding: 10px;
-    background-color: var(--blanco)
+    padding: 1vw;
+    background-color: var(--blanco);
 }
 
 
@@ -1138,26 +1126,25 @@ h3 {
 }
 
 
-@media (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
+@media (min-width: 300px) and (max-width: 700px) and (orientation: landscape) {
 
     .titulo {
-    width: 80%;
+    width: 100%;
     text-align: center;
     font-family: Source Sans Pro;
-    font-size: 100%;
+    font-size: 2vw;
     color: black;
     font-weight: normal;
     margin-top: 7%;
 }
-
 .conetenedor-imagen-opcion {
     box-shadow: -1px -1px 16px inset black;
     border-radius: 12px;
     border: 1px solid var(--azul-axa);
     margin: 1px;
-    width: auto;
-    height: 7ch;
-    cursor: pointer
+    width: 2vw;
+    height: 1vw;
+    cursor: pointer;
 }
 
 

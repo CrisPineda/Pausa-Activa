@@ -33,7 +33,7 @@ import ImagenAni4 from '@/assets/img/ani4.png';
 import ImagenCalculadora from '@/assets/img/ani3.png';
 import ImagenPc from '@/assets/img/ani1.png';
 import ImagenLibro from '@/assets/img/ani2.png';
-const temas = ref(["oficina", "fruta"]);
+const temas = ref(["oficina"]);
 const tema = ref("")
 const temaSeleccionado = ref("")
 const giros = ref();
@@ -42,9 +42,6 @@ const emit = defineEmits(['finSeleccionTemas'])
 
 
 const imagenes = ref([
-    { imagen: ImagenBanano, tipo: "fruta" },
-    { imagen: ImagenFresa, tipo: "fruta" },
-    { imagen: ImagenNaranja, tipo: "fruta" },
     { imagen: ImagenLibro, tipo: "oficina" },
     { imagen: ImagenCalculadora, tipo: "oficina" },
     { imagen: ImagenPc, tipo: "oficina" }

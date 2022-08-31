@@ -186,7 +186,7 @@ h3 {
 
 h4 {
     font-family: Source Sans Pro;
-    font-size: 80%;
+    font-size: vw;
     color: #333333;
     border: 1px solid  #28C1F2;
     font-weight: 400;
@@ -928,9 +928,8 @@ h4 {
     justify-content: center;
     align-content: center;
     place-items: center;
-    width: 74vw;
-    height: 50v3w;
-    max-height: 46vw;
+    width: 84%;
+    height: 90%;
     grid-gap: 24px;
     background-color: white;
     border-radius: 23px;

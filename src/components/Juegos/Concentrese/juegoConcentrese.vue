@@ -20,10 +20,10 @@
         </template>
         <template #mensaje-respuestas>
             <div v-if="puntosBuenos > 0" class="auto">
-                <img :src="ChetList" width="180" height="180" alt="">
+                <img :src="ChetList" width="33%" height="180" alt="">
             </div>
             <div v-else class="auto">
-                <img :src="WarnList" width="180" height="180" alt="">
+                <img :src="WarnList" width="33%" height="180" alt="">
             </div>
         </template>
         <template #mensaje-opcion>
@@ -1022,7 +1022,7 @@ h3 {
 
 
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 680px) and (max-width: 1024px) and (orientation: landscape) {
 
     .responsive {
         width: auto;

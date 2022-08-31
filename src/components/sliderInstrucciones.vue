@@ -250,16 +250,18 @@ function funcionConRetraso3() {
 
 .intrucciones {
     font-family: Source Sans Pro;
-    font-size: 2em;
-    line-height: 33px;
+    font-size: 2vw;
+    line-height: 4vh;
     color: black;
     font-weight: normal;
     text-align: left;
-    height: 35vh;
+    width: 73vw;
+    height: 27vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 @media (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
    .slider-instrucciones {
     width: 100%;
@@ -291,14 +293,14 @@ function funcionConRetraso3() {
     align-content: center;
 }
 
-      .intrucciones {
+.intrucciones{
     font-family: Source Sans Pro;
-    font-size: 100%;
-    line-height: 100%;
+    font-size: 2vw;
+    line-height: 4vh;
     color: black;
     font-weight: normal;
     text-align: left;
-    width: 75%;
+    width: 86vw;
     height: 27vh;
     display: flex;
     justify-content: center;
@@ -357,9 +359,9 @@ function funcionConRetraso3() {
 
 
 @media screen and (min-width: 1024px) and (max-width: 1367px) {
-   .intrucciones {
+    .intrucciones {
     font-family: Source Sans Pro;
-    font-size: 125%;
+    font-size: 3vh;
     line-height: 130%;
     color: black;
     font-weight: normal;

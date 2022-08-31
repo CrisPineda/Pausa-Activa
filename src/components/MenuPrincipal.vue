@@ -12,7 +12,9 @@
                     }}
 
                     </div>
-                    <button class="botonsalida info"  @click="ocultarMenuPrincipal">X</button>
+                    <div><button class="botonsalida info"  @click="ocultarMenuPrincipal">X</button>
+                    </div>
+                    
                 </div>
 
                 <div class="title">

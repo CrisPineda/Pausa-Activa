@@ -219,8 +219,8 @@ onUnmounted(() => {
 /* Cronometro */
 .base-timer {
     position: absolute;
-    width: 143px;
-    height: 19%;
+    width: 15%;
+    height: 22%;
     top: 0px;
     right: 0rem;
     float: right;

@@ -190,7 +190,7 @@
             @eventOcultarInstrucciones="isInstruccionesPausaVisible = !isInstruccionesPausaVisible">>
             <template #texto-instrucciones>
                 <div>
-                    <img src="@/assets/img/mensaje.png" width="580" alt="">
+                    <img id="tam" src="@/assets/img/mensaje.png"  alt="">
                 </div>
                 <div class="contenedor-ejercicio-pausas  gap-1">
 
@@ -441,7 +441,7 @@ const styleCuadricula = reactive({
     placeItems: "center",
     alignItems: "center",
     flexWrap: "wrap",
-    margin: "-14px auto",
+    margin: "0px auto",
     gridGap: "0vh 22vh",
 });
 
@@ -802,25 +802,27 @@ const OcultarBotonComenzar = () => {
 </script>
 
 <style lang="css" scoped>
-    
+
 h2 {
     font-family: Source Sans Pro;
-    font-size: 80%;
+    font-size: 2vw;
     color: black;
     font-weight: 500;
 }
 
 h3 {
     font-family: Source Sans Pro;
-    font-size: 75%;
+    font-size: 2vw;
     color: black;
     font-weight: normal;
 }
 
-
+#tam{
+    width: 100%;
+}
 .contenedor-ejercicio-realizado {
     width: 100%;
-    height: 20vh;
+    height: 13vw;
     text-align: center;
     display: flex;
     align-items: center;
@@ -887,7 +889,7 @@ h3 {
 
 
 .titulo {
-    width: 80%;
+    width: 67vw;
     text-align: center;
     font-family: Source Sans Pro;
     font-size: var(--h2-title-size);
@@ -965,7 +967,7 @@ h3 {
     filter: grayscale(0)
 }
 
-@media (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
+@media (min-width: 360px) and (max-width: 699px) and (orientation: landscape) {
 .imagen-random-img img[data-v-685cf719] {
     width: auto;
     height: 9rem;
@@ -973,7 +975,7 @@ h3 {
 }
 }
 
-@media (min-width: 801px) and (max-width: 1023px) and (orientation: landscape) {
+@media (min-width: 700px) and (max-width: 1023px) and (orientation: landscape) {
     .imagen-random-img img {
         width: auto;
         height: 14rem;

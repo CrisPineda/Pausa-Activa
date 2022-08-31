@@ -93,11 +93,6 @@
     /* SourceSansPro */
 
     @font-face {
-        font-family: 'Source Sans Pro';
-        src: url('@/assets/fonts/sans-serif');
-    }
-
-    @font-face {
         font-family: 'PublicoBanner';
         src: url('@/assets/fonts/Publico-Banner-Bold');
     }

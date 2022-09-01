@@ -97,12 +97,12 @@ const secuencia = defineProps({
     font-size: 300%;
 }
 
-.texto-opcion {
+.texto-opcion[data-v-449d05e8] {
     pointer-events: none;
     text-align: left;
     color: black;
-    font-size: 70%;
-    font-family: Source Sans Pro
+    font-size: 1.7vw;
+    font-family: Source Sans Pro;
 }
 }
 

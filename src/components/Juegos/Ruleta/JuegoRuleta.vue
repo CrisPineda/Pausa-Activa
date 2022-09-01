@@ -811,15 +811,13 @@ hr {
         transform: translate(20%, -3px);
     }
 
-    .title {
-    
+   .title {
     height: 10%;
     width: 83%;
     text-align: left;
     color: black;
     font-family: Source Sans Pro;
-    font-size: 1.2em;
-
+    font-size: 2vw;
 }
 
 .titulo-incorrecto {
@@ -846,15 +844,14 @@ hr {
     cursor: pointer
 }
 
-.opciones-pregunta[data-v-2b8900c3] {
+.opciones-pregunta{
     display: flex;
     width: 97%;
     place-items: center;
     grid-gap: 4vh;
-    padding: 3px;
+    padding: 14px;
     flex-wrap: wrap;
 }
-
 
 
 }

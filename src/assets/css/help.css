@@ -185,5 +185,10 @@ input[type=text]{
     .gap-4{
         grid-gap:26px ;
     }
+}
+    @media (min-height: 600px) and (orientation: landscape) {
 
+    .gap-2B {
+        grid-gap: 0.6vh;
+    }
 }

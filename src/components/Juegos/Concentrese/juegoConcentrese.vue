@@ -20,10 +20,10 @@
         </template>
         <template #mensaje-respuestas>
             <div v-if="puntosBuenos > 0" class="auto">
-                <img :src="ChetList" width="33%" height="180" alt="">
+                <img :src="ChetList" id="tam" height="180" alt="">
             </div>
             <div v-else class="auto">
-                <img :src="WarnList" width="33%" height="180" alt="">
+                <img :src="WarnList" id="tam" height="180" alt="">
             </div>
         </template>
         <template #mensaje-opcion>

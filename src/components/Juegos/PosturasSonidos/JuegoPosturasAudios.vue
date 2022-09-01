@@ -50,10 +50,10 @@
             </template>
             <template #mensaje-respuestas>
                 <div v-if="puntosBuenos > 0" class="auto">
-                    <img :src="ChetList" id="tam" height="30%" alt="">
+                    <img :src="ChetList" id="tam" height="100" alt="">
                 </div>
                 <div v-else class="auto">
-                    <img :src="WarnList" id="tam" height="30%" alt="">
+                    <img :src="WarnList" id="tam" height="100" alt="">
                 </div>
             </template>
             <template #mensaje-opcion>

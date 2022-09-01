@@ -199,21 +199,20 @@ const slidersBienvenida = ref([]);
 
 }
 
-.tituloI{
-  display: flex;
-  justify-content: flex-start;
-  align-self: flex-start;
-  font-weight: bold;
-  color: white;
-  width: 29vw;
-  height: 14%;
-  position: absolute;
-  left: 18%;
-  top: -18%;
-  transform: translate(-50%, -50%);
-  font-family: PublicoBanner;
-  font-size: 2em;
-
+.tituloI {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    font-weight: bold;
+    color: white;
+    width: 29vw;
+    height: 14vh;
+    position: absolute;
+    left: 18%;
+    top: -18%;
+    transform: translate(-50%, -50%);
+    font-family: PublicoBanner;
+    font-size: 5vw;
 }
 
 .puntos-escena {

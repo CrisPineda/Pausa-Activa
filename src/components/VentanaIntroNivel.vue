@@ -106,7 +106,7 @@ const styleContenedor = reactive({
 }
 
 .texto-nivel {
-    font-size: 1em;
+    font-size: 0.6em;
     color: #668980;
     font-family: Publico Banner;
     font-weight: normal;

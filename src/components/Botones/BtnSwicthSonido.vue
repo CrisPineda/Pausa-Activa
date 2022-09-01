@@ -2,7 +2,7 @@
     <div>
         <div class="onoffswitch">
             <input type="checkbox" @change="changeEvent"  @click="chageStateteClick" v-model="estado" name="onoffswitch"
-                class="onoffswitch-checkbox" :id="`myonoffswitch${config.idSwitch}`" tabindex="0" checked>
+                class="onoffswitch-checkbox" :id="`myonoffswitch${config.idSwitch}`" tabindex="0" >
             <label class="onoffswitch-label" :for="`myonoffswitch${config.idSwitch}`">
                 <span class="onoffswitch-inner"></span>
                 <span class="onoffswitch-switch"></span>

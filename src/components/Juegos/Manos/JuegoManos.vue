@@ -607,7 +607,7 @@ h3 {
 
 .titulo-instruccion {
     font-family: Source Sans Pro;
-    font-size: 99%;
+    font-size: 1.5vw;
     color: black;
     font-weight: normal;
     width: 99%;
@@ -650,11 +650,11 @@ h3 {
 
 .titulo-instruccion {
     font-family: Source Sans Pro;
-    font-size: 80%;
+    font-size: 1.5vw;
     color: black;
     font-weight: normal;
     width: 100%;
-    margin-top: 18%;
+    margin-top: 5%;
     text-align: center
 }
 
@@ -665,7 +665,7 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    height: 37%;
+    height: 43%;
     width: 100%;
     margin: 0px auto;
     place-content: center;
@@ -726,7 +726,7 @@ h3 {
 
 .contenedor-mensaje {
     width: 80vw;
-    height: 38em;
+    height: 95vh;
     background-color: white;
     border-radius: 23px;
     filter: drop-shadow(2px 4px 6px black);

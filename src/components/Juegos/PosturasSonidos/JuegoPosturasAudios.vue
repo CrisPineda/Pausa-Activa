@@ -874,7 +874,7 @@ h3 {
     text-align: center
 }
 
-.titulo[data-v-17d42733] {
+.titulo{
     width: 100%;
     text-align: center;
     font-family: Source Sans Pro;
@@ -887,7 +887,7 @@ h3 {
 
 
 
-.conetenedor-imagen-opcion[data-v-17d42733] {
+.conetenedor-imagen-opcion{
     box-shadow: -1px -1px 16px inset black;
     border-radius: 12px;
     border: 1px solid var(--azul-axa);
@@ -1009,6 +1009,7 @@ h3 {
 
 #imagen-pregunta {
     object-fit: scale-down;
+    background-image:url(@/assets/img/manos/pregunta.png);
 }
 
 #imagen-pregunta-ejercicio {
@@ -1142,16 +1143,17 @@ h3 {
     border-radius: 12px;
     border: 1px solid var(--azul-axa);
     margin: 1px;
-    width: 2vw;
-    height: 1vw;
+    width: auto;
+    height: 12vh;
     cursor: pointer;
 }
 
 
 
+
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 701px) and (max-width: 1024px) and (orientation: landscape) {
     .opcion-correcto::before {
         content: '';
         background: url('@/assets/img/check_awert.png') no-repeat;
@@ -1173,4 +1175,22 @@ h3 {
     }
 
 }
+@media (min-width: 1025px) and (orientation: landscape) {
+
+    .opcion-incorrecto::before {
+        content: '';
+        background: url('@/assets/img/check_wrong.png') no-repeat;
+        background-size: contain;
+        position: fixed;
+        width: 5vw;
+        height: 5vh;
+        transform: translate(0px, 11px);
+    }
+
+}
+
+
 </style>
+
+
+

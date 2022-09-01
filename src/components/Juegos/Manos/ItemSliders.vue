@@ -357,12 +357,11 @@ const navegacion = () => {
     object-fit: scale-down;
 }
 
-    .contenedor-principal-sliders {
+.contenedor-principal-sliders{
     height: 100%;
-    max-height: 49vh;
+    max-height: 59vh;
     width: 100%;
 }
-
 .contenedor-principal-sliders2 {
     height: 20vh;
     width: 100%;
@@ -382,12 +381,11 @@ const navegacion = () => {
 
 
 
-    .contenedor-principal-sliders {
+    .contenedor-principal-sliders{
     height: 100%;
-    max-height: 55vh;
+    max-height: 48vh;
     width: 100%;
 }
-
 
 
     
@@ -408,7 +406,7 @@ const navegacion = () => {
 
 
  .contenedor-principal-sliders {
-        height: 90%;
+        height: 100%;
         width: 100%;
     }
 

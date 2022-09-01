@@ -1142,9 +1142,9 @@ h3 {
     box-shadow: -1px -1px 16px inset black;
     border-radius: 12px;
     border: 1px solid var(--azul-axa);
-    margin: 1px;
+    margin: 0px;
     width: auto;
-    height: 12vh;
+    height: 22vh;
     cursor: pointer;
 }
 

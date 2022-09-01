@@ -33,7 +33,7 @@ import ImagenAni4 from '@/assets/img/ani4.png';
 import ImagenCalculadora from '@/assets/img/ani3.png';
 import ImagenPc from '@/assets/img/ani1.png';
 import ImagenLibro from '@/assets/img/ani2.png';
-const temas = ref(["oficina"]);
+const temas = ref(["oficina" , "oficina", "oficina"]);
 const tema = ref("")
 const temaSeleccionado = ref("")
 const giros = ref();

@@ -2,7 +2,7 @@
     <div class="contenedor-principal-sliders flex-center-elements-column ">
 
         <div :class="`next-${imagen.id}`" :style="styleObjectNext" @click="next()">
-            <img :src="ImagenFlechaDerecha" alt="" width="38">
+            <img :src="ImagenFlechaDerecha" alt="" id="tam">
         </div>
         <div class="container-slider slider-style-dinamic">
             <div :class="`contenedor-imagenes-${imagen.id}`" :style="[styleObjectContenedor, styleObjectValidacion]">
@@ -14,7 +14,7 @@
             </div>
         </div>
         <div :class="`prev-${imagen.id}`" :style="styleObjectPrev" @click="prev()">
-            <img :src="ImagenFlechaIzquierda" alt="" width="38">
+            <img :src="ImagenFlechaIzquierda" alt="" id="tam">
         </div>
     </div>
 </template>
@@ -312,7 +312,9 @@ const navegacion = () => {
     object-fit: scale-down;
 }
 
-
+#tam {
+    width: 5vw;
+}
 
 .sliders-random img {
     width: 20vh;
@@ -350,7 +352,7 @@ const navegacion = () => {
 
 .sliders-order img {
     width: 100%;
-    height: 17vh;
+    height: 22vh;
     border: 1px solid #00008F;
     margin: 0px auto;
     border-radius: 12px;

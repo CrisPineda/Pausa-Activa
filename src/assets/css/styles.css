@@ -186,7 +186,7 @@ h3 {
 
 h4 {
     font-family: Source Sans Pro;
-    font-size: vw;
+    font-size: 2vw;
     color: #333333;
     border: 1px solid  #28C1F2;
     font-weight: 400;
@@ -197,11 +197,11 @@ h4 {
 .texto-descripcion-pausas {
     text-align: justify;
     font-family: Source Sans Pro;
-    font-size: 1.06em;
+    font-size: 1.06vw;
     color: black;
     font-weight: normal;
-    padding: 30px;
-    height: 22vw;
+    padding: 11.5vh;
+    height: 38vh;
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
@@ -212,18 +212,17 @@ h4 {
 .texto-descripcion-pausas2 {
     text-align: justify;
     font-family: Source Sans Pro;
-    font-size: 1.06em;
-    color: black;
-    font-weight: normal;
-    padding: 19px;
-    height: 19vw;
+    font-size: 1.5vw;
+    color: #000;
+    font-weight: 400;
+    padding: 39px;
+    height: 22vw;
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
     flex-direction: column;
     overflow-y: auto;
 }
-
 
 .texto-bienvenida {
     font-family: Source Sans Pro;
@@ -1120,19 +1119,17 @@ h4 {
     }
 
     .texto-descripcion-pausas {
-    text-align: justify;
-    font-family: Source Sans Pro;
-    font-size: 85%;
-    color: black;
-    font-weight: normal;
-    height: -1%;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-evenly;
-    flex-direction: column;
-    overflow-y: auto;
-}
-  
+        text-align: justify;
+        font-family: Source Sans Pro;
+        font-size: 1.7vw;
+        color: black;
+        font-weight: normal;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-evenly;
+        flex-direction: column;
+        overflow-y: auto;
+    } 
     .texto-instrucciones {
         height: 80% !important
     }

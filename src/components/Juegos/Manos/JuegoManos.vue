@@ -92,11 +92,14 @@
 
 
                         </div>
+                        
                     </div>
                     <div class="auto  flex-center-elements-column gap-3Manos" v-if="mostrarCamara">
+                        <div v-if="camaraReady" >
                         <CaramaWeb :width="140" :height="140" @camaraLoad="finLoadCamara" />
                         <div v-if="!finTiempoCronometro" class="btn-primary2" @click="volverEscenario">VOLVER AL
                             ESCENARIO</div>
+                        </div>
                         <div v-if="ocultarBotonComenzarActividad"
                             :class="{ 'habilitar-boton-listo': ocultarBotonComenzarActividad }"
                             class="auto  inhabilitar-boton-listo flex-center-elements-row gap-2"

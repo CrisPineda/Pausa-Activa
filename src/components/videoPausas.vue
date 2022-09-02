@@ -162,9 +162,9 @@ video{
 
 @media (min-width: 360px) and (max-width: 800px) and (orientation: landscape) {
 
-    video{
-    width: 28vh;
-    height: 25vh;
+    video {
+    width: 17vw;
+    height: 17vh;
     border: 1px solid blue;
 }
 

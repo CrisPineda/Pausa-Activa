@@ -278,22 +278,16 @@ const slidersBienvenida = ref([]);
 
   }
 
-  .tituloI{
-  display: flex;
-  justify-content: flex-start;
-  align-self: flex-start;
-  font-weight: bold;
-  color: white;
-  width: 37%;
-  height: 10%;
-  position: absolute;
-  left: 22%;
-  top: -16%;
-  transform: translate(-50%, -50%);
-  font-family: PublicoBanner;
-  font-size: 2em;
-
+  .tituloI {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    height: 23%;
+    position: absolute;
+    left: 19%;
+    font-size: 5vw;
 }
+
   .item-slider img {
     object-fit: scale-down;
     width: 30% !important;

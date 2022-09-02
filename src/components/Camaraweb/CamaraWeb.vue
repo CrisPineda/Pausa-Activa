@@ -160,7 +160,7 @@ onMounted(() => {
 }
 
 video {
-    width: 70% !important;
+    width: 14vw !important;
 }
 
 #contenedor-video {
@@ -172,7 +172,7 @@ video {
     align-content: center;
 }
 
-@media screen and (min-width: 360px) and (max-width:800px) and (orientation: landscape) {
+@media screen and (min-width: 360px) and (max-width:767px) and (orientation: landscape) {
 
     #contenedor-video {
     width: 300px;
@@ -184,7 +184,7 @@ video {
 }
 
 video {
-    width: 70% !important;
+    width: 14vw !important;
 }
 
 }
@@ -197,8 +197,8 @@ video {
 }
 
     #contenedor-video {
-        width: 70vh;
-        height: 224px;
+        width: 37vw;
+        height: 37vh;
         display: flex;
         align-items: center;
         justify-content: center;

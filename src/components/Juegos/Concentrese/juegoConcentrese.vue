@@ -74,7 +74,7 @@
 
                         </div>
                         <div :style="styleContenedorEjercicioRealizado"
-                            class="size-imagen-pausas contenedor-ejercicio-realizado  gap-4" style="position:relative">
+                            class="size-imagen-pausas gap-4"  style="position:relative">
 
                             <VideoPausas ref="videoPausasRef" :ismonstrarMensajeCambio="monstrarMensajeCambio"
                                 :videoPausaUrl="videoPausa" :isPlayVideo="estadoVideoPause"
@@ -874,14 +874,14 @@ h1 {
 
 h2 {
     font-family: Source Sans Pro;
-    font-size: 80%;
+    font-size: 2vw;
     color: black;
     font-weight: 500;
 }
 
 h3 {
     font-family: Source Sans Pro;
-    font-size: 75%;
+    font-size: 2vw;
     color: black;
     font-weight: normal;
 }
@@ -934,17 +934,16 @@ h3 {
     font-weight: normal;
 }
 
-.titulo-instrucciones-pausas {
+.titulo-instrucciones-pausas[data-v-397d85eb] {
     width: 80%;
     text-align: center;
     font-family: Source Sans Pro;
-    font-size: 1.5em;
+    font-size: 4.5vh;
     color: black;
     font-weight: bold;
     margin-bottom: 0px;
     margin-top: 20%;
 }
-
 
 
 
@@ -958,7 +957,17 @@ h3 {
     margin: 0px auto;
 }
 
-
+.contenedor-ejercicio-realizado{
+    width: 100%;
+    height: 13vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 
 
@@ -972,9 +981,9 @@ h3 {
     background: url('@/assets/img/check_awert.png') no-repeat;
     background-size: contain;
     position: fixed;
-    width: 3vw;
+    width: 10%;
     height: 3vh;
-    transform: translate(10rem, 0.7rem);
+    transform: translate(10%, 0.7rem);
     float: right;
 }
 
@@ -982,11 +991,9 @@ h3 {
     content: '';
     background: url('@/assets/img/check_wrong.png') no-repeat;
     background-size: contain;
-    position: fixed;
-    width: 3vw;
+    width: 10%;
     height: 3vh;
-    transform: translate(10rem, 0.7rem);
-    float: right;
+    transform: translate(10%, 0.7rem);
 }
 
 .habilitar-boton-listo {
@@ -1002,8 +1009,8 @@ h3 {
 
 
 .size-imagen-pausas {
-    width: 90%;
-    height: 40vh
+    width: 105%;
+    height: 34vh
 }
 
 .overflow {
@@ -1036,7 +1043,7 @@ h3 {
         background: url('@/assets/img/check_awert.png') no-repeat;
         background-size: contain;
         position: fixed;
-        width: 3vw;
+        width: 10%;
         height: 3vh;
         transform: translate(4.5rem, 0.7rem);
         float: right;
@@ -1047,7 +1054,7 @@ h3 {
         background: url('@/assets/img/check_wrong.png') no-repeat;
         background-size: contain;
         position: fixed;
-        width: 3vw;
+        width: 10%;
         height: 3vh;
         transform: translate(4.5rem, 0.7rem);
         float: right;
@@ -1055,7 +1062,7 @@ h3 {
 
     .size-imagen-pausas {
         width: 80%;
-        height: 34%;
+        height: 38%;
     }
 }
 </style>

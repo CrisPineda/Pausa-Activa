@@ -432,7 +432,7 @@ function funcionConRetraso3() {
 }
 
 .contenedor-slider {
-    width: 85%;
+    width: 80%;
     height: 100%;
     overflow: hidden;
 }
